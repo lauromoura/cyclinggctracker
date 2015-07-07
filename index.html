@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tour de France 2015 chart</title>
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.flot.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.flot.time.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.flot.symbol.min.js"></script>
+	<!-- <script type="text/javascript" src="lib/jquery.flot.axislabels.min.js"></script>-->
+	<style type="text/css">
+	.container {
+		width: 100%;
+		overflow: hidden;
+	}
+	.placeholder {
+		width: 70%;
+		height: 600px;
+		margin-left: 30%;
+	}
+	.right-box {
+		width: 300px;
+		float: left;
+	}
+	</style>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var data = [];
+		$.plot("#flot-placeholder", [data]);
+
+		// FIXME This should to the json file
+		var tour_favourites = [
+			"Christopher Froome",
+			"Alberto Contador",
+			"Nairo Quintana",
+			"Vincenzo Nibali",
+			"Tejay Van Garderen",
+			"Joaquim Rodriguez",
+			"Rigoberto Uran",
+			"Bauke Mollema",
+			"Alejandro Valverde",
+			"Warren Barguil",
+			"Romain Bardet",
+			"Robert Gesink",
+			"Jean-Christophe Peraud",
+			"Andrew Talansky",
+			"Thibaut Pinot",
+			"Rui Costa",
+			"Pierre Rolland"
+		];
+
+		var giro_favourites = [
+			"Mikel Landa Meana",
+			"Tom Dumoulin",
+			"Vincenzo Nibali",
+			"Alejandro Valverde",
+			"Steven Kruijswijk",
+			"Rigoberto Uran",
+			"Esteban Chaves",
+			"Ilnur Zakarin",
+			"Andrey Amador",
+			"Rafal Majka",
+			"Bob Jungels",
+			"Gianluca Brambilla",
+			"Ryder Hesjedal",
+			"Jakob Fuglsang",
+			"Domenico Pozzovivo",
+			"Diego Ulissi",
+			"Stefano Pirazzi",
+			"Kanstantsin Siutsou",
+			"Sergey Firsanov",
+			"Giovanni Visconti",
+			"Davide Formolo",
+			"Tanel Kangert"
+			// ""
+		];
+
+		var favourites = giro_favourites;
+
+		$.getJSON('output.json', function(json, textStatus) {
+
+			var dataset = {};
+			for (var i=0; i < favourites.length; i++) {
+				console.log("Getting " + favourites[i]);
+				rider = json[favourites[i]];
+				if (!rider) {
+					console.log("Missing " + favourites[i])
+					continue
+				}
+				var riderData = { data: [], label: rider.name }
+				rider.time.forEach(function(timeBehindLeader, stage){
+					riderData.data.push([stage+1, timeBehindLeader]);
+				});
+				dataset[rider.name] = riderData;
+			}
+			console.log("will plot");
+
+			// Checkboxes
+			var choicesContainer = $("#checkboxes");
+			$.each(dataset, function(key, val){
+				choicesContainer.append("<br/><input type='checkbox' name='" + key + "' checked='checked' id='id" + key + "'></input>" +
+					"<label for='id" + key + "'>" + val.label + "</label>");
+			});
+
+			choicesContainer.find("input").click(plotAccordingToChoices);
+
+			function plotAccordingToChoices() {
+				var data = []
+				choicesContainer.find("input:checked").each(function(){
+					var key = $(this).attr('name');
+					console.log('key' + key);
+					if (key && dataset[key])
+						data.push(dataset[key]);
+				});
+
+				if (data.length > 0) {
+					$.plot("#flot-placeholder", data, {
+                        legend: {
+                            position: "nw"
+                        }
+					});
+				}
+			}
+			plotAccordingToChoices();
+		});
+	});
+	</script>
+</head>
+<body>
+	<div class=".container">
+		<div id="checkboxes" class="right-box"></div>
+		<div id="flot-placeholder" class="placeholder"></div>
+	</div>
+</body>
+</html>
+

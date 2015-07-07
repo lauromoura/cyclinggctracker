@@ -1,0 +1,185 @@
+1	Christopher Froome (GBr) Team Sky	31:34:12	 
+2	Tejay Van Garderen (USA) BMC Racing Team	0:00:12	 
+3	Greg Van Avermaet (Bel) BMC Racing Team	0:00:27	 
+4	Peter Sagan (Svk) Tinkoff-Saxo	0:00:38	 
+5	Alberto Contador (Spa) Tinkoff-Saxo	0:01:03	 
+6	Rigoberto Uran (Col) Etixx - Quick-Step	0:01:18	 
+7	Alejandro Valverde (Spa) Movistar Team	0:01:50	 
+8	Geraint Thomas (GBr) Team Sky	0:01:52	 
+9	Nairo Quintana (Col) Movistar Team	0:01:59	 
+10	Zdenek Stybar (Cze) Etixx - Quick-Step	 	 
+11	Tony Gallopin (Fra) Lotto Soudal	0:02:01	 
+12	Roman Kreuziger (Cze) Tinkoff-Saxo	0:02:18	 
+13	Vincenzo Nibali (Ita) Astana Pro Team	0:02:22	 
+14	Warren Barguil (Fra) Team Giant-Alpecin	0:02:43	 
+15	Robert Gesink (Ned) Team LottoNL-Jumbo	0:02:52	 
+16	Bauke Mollema (Ned) Trek Factory Racing	0:02:56	 
+17	Jean-Christophe Peraud (Fra) AG2R La Mondiale	0:03:30	 
+18	Joaquim Rodriguez (Spa) Team Katusha	0:03:52	 
+19	Andrew Talansky (USA) Cannondale-Garmin Pro Cycling Team	0:04:17	 
+20	Mathias Frank (Swi) IAM Cycling	0:04:32	 
+21	Romain Bardet (Fra) AG2R La Mondiale	0:04:38	 
+22	Jan Bakelants (Bel) AG2R La Mondiale	0:05:08	 
+23	Rui Costa (Por) Lampre-Merida	0:05:20	 
+24	Jakob Fuglsang (Den) Astana Pro Team	0:05:22	 
+25	Samuel Sanchez (Spa) BMC Racing Team	0:06:17	 
+26	Dominik Nerz (Ger) Bora-Argon 18	0:06:28	 
+27	Gorka Izagirre (Spa) Movistar Team	0:06:40	 
+28	Alexis Vuillermoz (Fra) AG2R La Mondiale	0:06:49	 
+29	Thibaut Pinot (Fra) FDJ.fr	0:08:05	 
+30	Kristijan Koren (Slo) Cannondale-Garmin Pro Cycling Team	0:08:35	 
+31	Daniel Martin (Irl) Cannondale-Garmin Pro Cycling Team	0:09:21	 
+32	Sylvain Chavanel (Fra) IAM Cycling	 	 
+33	Edvald Boasson Hagen (Nor) MTN - Qhubeka	0:10:14	 
+34	Alberto Losada Alguacil (Spa) Team Katusha	0:10:37	 
+35	Jarlinson Pantano (Col) IAM Cycling	0:11:20	 
+36	Pierre Rolland (Fra) Team Europcar	0:11:43	 
+37	Paul Voss (Ger) Bora-Argon 18	0:11:47	 
+38	Eduardo Sepulveda (Arg) Bretagne-Séché Environnement	0:12:25	 
+39	Michal Kwiatkowski (Pol) Etixx - Quick-Step	0:15:18	 
+40	Michael Rogers (Aus) Tinkoff-Saxo	0:15:57	 
+41	Steve Morabito (Swi) FDJ.fr	0:16:24	 
+42	Simon Geschke (Ger) Team Giant-Alpecin	0:16:47	 
+43	Cyril Gautier (Fra) Team Europcar	0:17:14	 
+44	Lars Ytting Bak (Den) Lotto Soudal	0:17:18	 
+45	Koen De Kort (Ned) Team Giant-Alpecin	0:17:44	 
+46	Adam Yates (GBr) Orica GreenEdge	0:17:45	 
+47	Andriy Grivko (Ukr) Astana Pro Team	0:17:49	 
+48	Bram Tankink (Ned) Team LottoNL-Jumbo	0:18:03	 
+49	Simon Yates (GBr) Orica GreenEdge	0:18:29	 
+50	Christophe Laporte (Fra) Cofidis, Solutions Credits	0:19:41	 
+51	Michal Golas (Pol) Etixx - Quick-Step	0:20:23	 
+52	Jonathan Castroviejo (Spa) Movistar Team	0:20:33	 
+53	Reinardt Janse Van Rensburg (RSA) MTN - Qhubeka	0:20:54	 
+54	Mikael Cherel (Fra) AG2R La Mondiale	 	 
+55	Daniel Oss (Ita) BMC Racing Team	0:20:59	 
+56	André Greipel (Ger) Lotto Soudal	0:21:52	 
+57	John Degenkolb (Ger) Team Giant-Alpecin	0:22:15	 
+58	Geoffrey Soupe (Fra) Cofidis, Solutions Credits	0:22:25	 
+59	Jos Van Emden (Ned) Team LottoNL-Jumbo	0:23:00	 
+60	Matthieu Ladagnous (Fra) FDJ.fr	0:23:01	 
+61	Marcel Sieberg (Ger) Lotto Soudal	0:23:02	 
+62	Sep Vanmarcke (Bel) Team LottoNL-Jumbo	0:23:06	 
+63	Mark Cavendish (GBr) Etixx - Quick-Step	0:23:31	 
+64	Michael Schär (Swi) BMC Racing Team	0:23:49	 
+65	Ramon Sinkeldam (Ned) Team Giant-Alpecin	0:24:12	 
+66	Romain Sicard (Fra) Team Europcar	0:24:31	 
+67	Julien Vermote (Bel) Etixx - Quick-Step	0:24:32	 
+68	Roy Curvers (Ned) Team Giant-Alpecin	0:24:47	 
+69	Benoît Vaugrenard (Fra) FDJ.fr	0:24:50	 
+70	Julien Simon (Fra) Cofidis, Solutions Credits	0:25:05	 
+71	Rein Taaramae (Est) Astana Pro Team	0:25:11	 
+72	Nicolas Roche (Irl) Team Sky	0:25:25	 
+73	Jacques Janse Van Rensburg (RSA) MTN - Qhubeka	0:25:36	 
+74	Florian Senechal (Fra) Cofidis, Solutions Credits	0:25:42	 
+75	Bryan Coquard (Fra) Team Europcar	0:25:57	 
+76	Grégory Rast (Swi) Trek Factory Racing	0:26:24	 
+77	Rohan Dennis (Aus) BMC Racing Team	0:26:29	 
+78	Danilo Wyss (Swi) BMC Racing Team	0:26:34	 
+79	Arnaud Demare (Fra) FDJ.fr	0:26:51	 
+80	Alexander Kristoff (Nor) Team Katusha	0:27:14	 
+81	Jan Barta (Cze) Bora-Argon 18	0:27:17	 
+82	Tanel Kangert (Est) Astana Pro Team	0:27:21	 
+83	Georg Preidler (Aut) Team Giant-Alpecin	0:27:22	 
+84	Tiago Machado (Por) Team Katusha	0:27:34	 
+85	Haimar Zubeldia (Spa) Trek Factory Racing	0:27:59	 
+86	Ramunas Navardauskas (Ltu) Cannondale-Garmin Pro Cycling Team	0:28:02	 
+87	Thomas Leezer (Ned) Team LottoNL-Jumbo	0:28:04	 
+88	Paul Martens (Ger) Team LottoNL-Jumbo	0:28:19	 
+89	Armindo Fonseca (Fra) Bretagne-Séché Environnement	0:28:39	 
+90	Zakkari Dempster (Aus) Bora-Argon 18	0:28:47	 
+91	Daniele Bennati (Ita) Tinkoff-Saxo	0:29:00	 
+92	Ian Stannard (GBr) Team Sky	0:29:04	 
+93	Serge Pauwels (Bel) MTN - Qhubeka	0:29:28	 
+94	Anthony Delaplace (Fra) Bretagne-Séché Environnement	0:29:39	 
+95	Florian Vachon (Fra) Bretagne-Séché Environnement	0:30:01	 
+96	Steven Kruijswijk (Ned) Team LottoNL-Jumbo	0:30:17	 
+97	Markel Irizar (Spa) Trek Factory Racing	0:30:19	 
+98	Manuel Quinziato (Ita) BMC Racing Team	0:30:34	 
+99	Michael Valgren Andersen (Den) Tinkoff-Saxo	0:31:02	 
+100	Mark Renshaw (Aus) Etixx - Quick-Step	0:31:15	 
+101	Matteo Trentin (Ita) Etixx - Quick-Step	0:31:36	 
+102	Reto Hollenstein (Swi) IAM Cycling	0:31:43	 
+103	Adriano Malori (Ita) Movistar Team	0:31:57	 
+104	Marcel Wyss (Swi) IAM Cycling	0:32:06	 
+105	Ben Gastauer (Lux) AG2R La Mondiale	0:32:09	 
+106	Wilco Kelderman (Ned) Team LottoNL-Jumbo	0:32:34	 
+107	Tyler Farrar (USA) MTN - Qhubeka	0:32:38	 
+108	Filippo Pozzato (Ita) Lampre-Merida	0:32:46	 
+109	Daniel Teklehaimanot (Eri) MTN - Qhubeka	0:33:39	 
+110	Jose Rodolfo Serpa (Col) Lampre-Merida	0:34:09	 
+111	Angelo Tulik (Fra) Team Europcar	0:34:10	 
+112	Tim Wellens (Bel) Lotto Soudal	0:34:22	 
+113	Pierrick Fedrigo (Fra) Bretagne-Séché Environnement	0:34:31	 
+114	Lieuwe Westra (Ned) Astana Pro Team	0:34:47	 
+115	Nelson Oliveira (Por) Lampre-Merida	0:35:06	 
+116	Luis Angel Mate (Spa) Cofidis, Solutions Credits	0:35:08	 
+117	Bartosz Huzarski (Pol) Bora-Argon 18	0:35:11	 
+118	Stef Clement (Ned) IAM Cycling	0:35:27	 
+119	Jérémy Roy (Fra) FDJ.fr	0:36:15	 
+120	Yohann Gene (Fra) Team Europcar	0:36:21	 
+121	Kristijan Durasek (Cro) Lampre-Merida	0:36:26	 
+122	Ryder Hesjedal (Can) Cannondale-Garmin Pro Cycling Team	0:36:28	 
+123	Damiano Caruso (Ita) BMC Racing Team	 	 
+124	Arnaud Gerard (Fra) Bretagne-Séché Environnement	0:36:29	 
+125	Michele Scarponi (Ita) Astana Pro Team	0:36:52	 
+126	Jacopo Guarnieri (Ita) Team Katusha	0:37:46	 
+127	Damien Gaudin (Fra) AG2R La Mondiale	0:37:48	 
+128	Matthias Brandle (Aut) IAM Cycling	0:38:03	 
+129	Daniel Navarro (Spa) Cofidis, Solutions Credits	0:38:57	 
+130	Leopold Konig (Cze) Team Sky	0:38:58	 
+131	Perrig Quemeneur (Fra) Team Europcar	0:39:28	 
+132	Luke Rowe (GBr) Team Sky	0:39:31	 
+133	Julian Arredondo (Col) Trek Factory Racing	0:39:53	 
+134	Christophe Riblon (Fra) AG2R La Mondiale	0:40:00	 
+135	Rafal Majka (Pol) Tinkoff-Saxo	0:41:01	 
+136	Giampaolo Caruso (Ita) Team Katusha	0:41:35	 
+137	Bob Jungels (Lux) Trek Factory Racing	0:41:56	 
+138	Luke Durbridge (Aus) Orica GreenEdge	0:42:34	 
+139	Nathan Haas (Aus) Cannondale-Garmin Pro Cycling Team	0:42:55	 
+140	Alexandre Geniez (Fra) FDJ.fr	0:43:19	 
+141	Jerome Coppel (Fra) IAM Cycling	0:43:23	 
+142	Martin Elmiger (Swi) IAM Cycling	0:43:29	 
+143	Brice Feillu (Fra) Bretagne-Séché Environnement	 	 
+144	Richie Porte (Aus) Team Sky	0:44:04	 
+145	Pierre-Luc Perichon (Fra) Bretagne-Séché Environnement	0:45:01	 
+146	José Herrada (Spa) Movistar Team	0:45:09	 
+147	Imanol Erviti (Spa) Movistar Team	0:45:59	 
+148	Sébastien Chavanel (Fra) FDJ.fr	0:46:43	 
+149	Wouter Poels (Ned) Team Sky	0:46:50	 
+150	Albert Timmer (Ned) Team Giant-Alpecin	0:47:52	 
+151	Winner Anacona (Col) Movistar Team	0:48:39	 
+152	Kenneth Van Bilsen (Bel) Cofidis, Solutions Credits	 	 
+153	Rafael Valls Ferri (Spa) Lampre-Merida	0:48:48	 
+154	Sebastian Langeveld (Ned) Cannondale-Garmin Pro Cycling Team	0:49:17	 
+155	Ruben Plaza Molina (Spa) Lampre-Merida	0:49:23	 
+156	Jens Debusschere (Bel) Lotto Soudal	0:50:15	 
+157	Davide Cimolai (Ita) Lampre-Merida	0:51:14	 
+158	Ivan Basso (Ita) Tinkoff-Saxo	0:51:23	 
+159	Lars Boom (Ned) Astana Pro Team	0:51:24	 
+160	Dylan Van Baarle (Ned) Cannondale-Garmin Pro Cycling Team	0:51:41	 
+161	Stephen Cummings (GBr) MTN - Qhubeka	0:51:51	 
+162	Dmitriy Gruzdev (Kaz) Astana Pro Team	0:52:00	 
+163	Peter Kennaugh (GBr) Team Sky	0:52:07	 
+164	Matteo Tosatto (Ita) Tinkoff-Saxo	0:52:10	 
+165	Merhawi Kudus Ghebremedhin (Eri) MTN - Qhubeka	0:52:23	 
+166	Laurent Didier (Lux) Trek Factory Racing	0:52:37	 
+167	Bryan Nauleau (Fra) Team Europcar	0:52:54	 
+168	José Mendes (Por) Bora-Argon 18	 	 
+169	Marco Haller (Aut) Team Katusha	0:53:16	 
+170	Stijn Devolder (Bel) Trek Factory Racing	0:53:18	 
+171	Thomas Voeckler (Fra) Team Europcar	0:53:30	 
+172	Matteo Bono (Ita) Lampre-Merida	0:54:24	 
+173	Louis Meintjes (RSA) MTN - Qhubeka	0:54:27	 
+174	Emanuel Buchmann (Ger) Bora-Argon 18	0:54:54	 
+175	Pieter Weening (Ned) Orica GreenEdge	0:57:09	 
+176	Thomas De Gendt (Bel) Lotto Soudal	0:59:17	 
+177	Sam Bennett (Irl) Bora-Argon 18	1:00:45	 
+178	Laurens Ten Dam (Ned) Team LottoNL-Jumbo	1:00:46	 
+179	Johan Van Summeren (Bel) AG2R La Mondiale	1:01:51	 
+180	Svein Tuft (Can) Orica GreenEdge	1:04:17	 
+181	Frédéric Brun (Fra) Bretagne-Séché Environnement	1:06:00	 
+182	Adam Hansen (Aus) Lotto Soudal	1:06:12	 
+183	Nicolas Edet (Fra) Cofidis, Solutions Credits	1:09:54	 
+184	Alex Dowsett (GBr) Movistar Team	1:13:01	 
+185	Michael Matthews (Aus) Orica GreenEdge	1:16:10

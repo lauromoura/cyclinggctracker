@@ -1,0 +1,198 @@
+1	Marcel Kittel (Ger) Team Argos-Shimano	4:56:52	 
+2	Alexander Kristoff (Nor) Katusha	 	 
+3	Danny van Poppel (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+4	David Millar (GBr) Garmin-Sharp	 	 
+5	Matteo Trentin (Ita) Omega Pharma-Quick Step	 	 
+6	Samuel Dumoulin (Fra) AG2R La Mondiale	 	 
+7	Greg Henderson (NZl) Lotto Belisol	 	 
+8	Jurgen Roelandts (Bel) Lotto Belisol	 	 
+9	Jose Joaquin Rojas Gil (Spa) Movistar Team	 	 
+10	Kris Boeckmans (Bel) Vacansoleil-DCM Pro Cycling Team	 	 
+11	Daryl Impey (RSA) Orica-GreenEdge	 	 
+12	Sep Vanmarcke (Bel) Belkin Pro Cycling Team	 	 
+13	Julien Simon (Fra) Sojasun	 	 
+14	Nicolas Roche (Irl) Team Saxo-Tinkoff	 	 
+15	Simon Gerrans (Aus) Orica-GreenEdge	 	 
+16	Andrey Kashechkin (Kaz) Astana Pro Team	 	 
+17	José Ivan Gutierrez Palacios (Spa) Movistar Team	 	 
+18	Ruben Perez Moreno (Spa) Euskaltel-Euskadi	 	 
+19	Michael Albasini (Swi) Orica-GreenEdge	 	 
+20	Maarten Wynants (Bel) Belkin Pro Cycling Team	 	 
+21	Jonathan Hivert (Fra) Sojasun	 	 
+22	Jean-Christophe Peraud (Fra) AG2R La Mondiale	 	 
+23	Cadel Evans (Aus) BMC Racing Team	 	 
+24	Edvald Boasson Hagen (Nor) Sky Procycling	 	 
+25	Christophe Riblon (Fra) AG2R La Mondiale	 	 
+26	Roman Kreuziger (Cze) Team Saxo-Tinkoff	 	 
+27	Sergey Lagutin (Uzb) Vacansoleil-DCM Pro Cycling Team	 	 
+28	Michael Schär (Swi) BMC Racing Team	 	 
+29	Michal Kwiatkowski (Pol) Omega Pharma-Quick Step	 	 
+30	Romain Bardet (Fra) AG2R La Mondiale	 	 
+31	Jurgen Van Den Broeck (Bel) Lotto Belisol	 	 
+32	Damiano Cunego (Ita) Lampre-Merida	 	 
+33	Gatis Smukulis (Lat) Katusha	 	 
+34	Sylvain Chavanel (Fra) Omega Pharma-Quick Step	 	 
+35	Alejandro Valverde Belmonte (Spa) Movistar Team	 	 
+36	Simon Clarke (Aus) Orica-GreenEdge	 	 
+37	Peter Velits (Svk) Omega Pharma-Quick Step	 	 
+38	Christian Vande Velde (USA) Garmin-Sharp	 	 
+39	Richie Porte (Aus) Sky Procycling	 	 
+40	Pavel Brutt (Rus) Katusha	 	 
+41	Christopher Froome (GBr) Sky Procycling	 	 
+42	Jakob Fuglsang (Den) Astana Pro Team	 	 
+43	Marcel Sieberg (Ger) Lotto Belisol	 	 
+44	Joaquim Rodriguez Oliver (Spa) Katusha	 	 
+45	Alberto Losada Alguacil (Spa) Katusha	 	 
+46	Niki Terpstra (Ned) Omega Pharma-Quick Step	 	 
+47	Nairo Alexander Quintana Rojas (Col) Movistar Team	 	 
+48	Jan Bakelants (Bel) RadioShack Leopard	 	 
+49	Tom Veelers (Ned) Team Argos-Shimano	 	 
+50	Simon Geschke (Ger) Team Argos-Shimano	 	 
+51	Jean-Marc Marino (Fra) Sojasun	 	 
+52	Boy van Poppel (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+53	Koen De Kort (Ned) Team Argos-Shimano	 	 
+54	Tom Dumoulin (Ned) Team Argos-Shimano	 	 
+55	Pierrick Fedrigo (Fra) FDJ	 	 
+56	Romain Sicard (Fra) Euskaltel-Euskadi	 	 
+57	Thibaut Pinot (Fra) FDJ	 	 
+58	Mark Cavendish (GBr) Omega Pharma-Quick Step	 	 
+59	Mikel Astarloza Chaurreau (Spa) Euskaltel-Euskadi	 	 
+60	Enrico Gasparotto (Ita) Astana Pro Team	 	 
+61	David Lopez Garcia (Spa) Sky Procycling	 	 
+62	Peter Kennaugh (GBr) Sky Procycling	 	 
+63	Vasil Kiryienka (Blr) Sky Procycling	 	 
+64	Marcus Burghardt (Ger) BMC Racing Team	 	 
+65	Gorka Izaguirre Insausti (Spa) Euskaltel-Euskadi	 	 
+66	Brett Lancaster (Aus) Orica-GreenEdge	 	 
+67	Haimar Zubeldia Agirre (Spa) RadioShack Leopard	 	 
+68	Kanstantsin Siutsou (Blr) Sky Procycling	 	 
+69	Arnold Jeannesson (Fra) FDJ	 	 
+70	Przemyslaw Niemiec (Pol) Lampre-Merida	 	 
+71	Eduard Vorganov (Rus) Katusha	 	 
+72	Juan Jose Oroz Ugalde (Spa) Euskaltel-Euskadi	 	 
+73	Igor Anton Hernandez (Spa) Euskaltel-Euskadi	 	 
+74	Rudy Molard (Fra) Cofidis, Solutions Credits	 	 
+75	Adam Hansen (Aus) Lotto Belisol	 	 
+76	Maxime Monfort (Bel) RadioShack Leopard	 	 
+77	Rein Taaramae (Est) Cofidis, Solutions Credits	 	 
+78	Laurent Didier (Lux) RadioShack Leopard	 	 
+79	Andy Schleck (Lux) RadioShack Leopard	 	 
+80	Cyril Gautier (Fra) Team Europcar	 	 
+81	Jon Izaguirre Insausti (Spa) Euskaltel-Euskadi	 	 
+82	Pierre Rolland (Fra) Team Europcar	 	 
+83	Alexis Vuillermoz (Fra) Sojasun	 	 
+84	David Veilleux (Can) Team Europcar	 	 
+85	Wouter Poels (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+86	Anthony Delaplace (Fra) Sojasun	 	 
+87	Jose Rodolfo Serpa Perez (Col) Lampre-Merida	 	 
+88	Nacer Bouhanni (Fra) FDJ	 	 
+89	Mikel Nieve Ituralde (Spa) Euskaltel-Euskadi	 	 
+90	Manuel Quinziato (Ita) BMC Racing Team	 	 
+91	Ryder Hesjedal (Can) Garmin-Sharp	 	 
+92	Alexandre Geniez (Fra) FDJ	 	 
+93	Daniel Martin (Irl) Garmin-Sharp	 	 
+94	Lars Petter Nordhaug (Nor) Belkin Pro Cycling Team	 	 
+95	Benjamin Noval Gonzalez (Spa) Team Saxo-Tinkoff	 	 
+96	Laurens Ten Dam (Ned) Belkin Pro Cycling Team	 	 
+97	Lieuwe Westra (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+98	Yukiya Arashiro (Jpn) Team Europcar	 	 
+99	Aliaksandr Kuchynski (Blr) Katusha	 	 
+100	Thomas Voeckler (Fra) Team Europcar	 	 
+101	Robert Gesink (Ned) Belkin Pro Cycling Team	 	 
+102	Yohann Gene (Fra) Team Europcar	 	 
+103	Thomas De Gendt (Bel) Vacansoleil-DCM Pro Cycling Team	 	 
+104	Arthur Vichot (Fra) FDJ	 	 
+105	Kévin Reza (Fra) Team Europcar	 	 
+106	Blel Kadri (Fra) AG2R La Mondiale	 	 
+107	John Gadret (Fra) AG2R La Mondiale	 	 
+108	John Degenkolb (Ger) Team Argos-Shimano	 	 
+109	William Bonnet (Fra) FDJ	 	 
+110	Andrew Talansky (USA) Garmin-Sharp	 	 
+111	Thomas Danielson (USA) Garmin-Sharp	 	 
+112	Lars Boom (Ned) Belkin Pro Cycling Team	 	 
+113	Maxime Bouet (Fra) AG2R La Mondiale	 	 
+114	Michael Rogers (Aus) Team Saxo-Tinkoff	 	 
+115	Cyril Lemoine (Fra) Sojasun	 	 
+116	Maxime Mederel (Fra) Sojasun	 	 
+117	Roy Curvers (Ned) Team Argos-Shimano	 	 
+118	Andrey Amador Bakkazakova (CRc) Movistar Team	 	 
+119	Yury Trofimov (Rus) Katusha	 	 
+120	Jens Voigt (Ger) RadioShack Leopard	 	 
+121	Yoann Bagot (Fra) Cofidis, Solutions Credits	 	 
+122	Juan Antonio Flecha Giannoni (Spa) Vacansoleil-DCM Pro Cycling Team	 	 
+123	Thomas Leezer (Ned) Belkin Pro Cycling Team	 	 
+124	Stuart O'Grady (Aus) Orica-GreenEdge	 	 
+125	Ramunas Navardauskas (Ltu) Garmin-Sharp	 	 
+126	Daniele Bennati (Ita) Team Saxo-Tinkoff	 	 
+127	Sergio Miguel Moreira Paulinho (Por) Team Saxo-Tinkoff	 	 
+128	Matteo Tosatto (Ita) Team Saxo-Tinkoff	 	 
+129	Jesus Hernandez Blazquez (Spa) Team Saxo-Tinkoff	 	 
+130	Ruben Plaza Molina (Spa) Movistar Team	 	 
+131	Rui Alberto Faria Da Costa (Por) Movistar Team	 	 
+132	Jérémy Roy (Fra) FDJ	 	 
+133	Daniel Moreno Fernandez (Spa) Katusha	 	 
+134	Juan Jose Lobato Del Valle (Spa) Euskaltel-Euskadi	 	 
+135	Fredrik Carl Wilhelm Kessiakoff (Swe) Astana Pro Team	 	 
+136	Francesco Gavazzi (Ita) Astana Pro Team	 	 
+137	Guillaume Levarlet (Fra) Cofidis, Solutions Credits	 	 
+138	Philippe Gilbert (Bel) BMC Racing Team	 	 
+139	Tejay van Garderen (USA) BMC Racing Team	 	 
+140	Steve Morabito (Swi) BMC Racing Team	 	 
+141	Jack Bauer (NZl) Garmin-Sharp	 	 
+142	Moreno Moser (Ita) Cannondale Pro Cycling	 	 
+143	Johannes Fröhlinger (Ger) Team Argos-Shimano	 	 
+144	Albert Timmer (Ned) Team Argos-Shimano	 	 
+145	Jonathan Castroviejo Nicolas (Spa) Movistar Team	 	 
+146	Assan Bazayev (Kaz) Astana Pro Team	 	 
+147	Brice Feillu (Fra) Sojasun	 	 
+148	Hubert Dupont (Fra) AG2R La Mondiale	 	 
+149	Adriano Malori (Ita) Lampre-Merida	 	 
+150	Cameron Meyer (Aus) Orica-GreenEdge	 	 
+151	Davide Malacarne (Ita) Team Europcar	 	 
+152	Alan Marangoni (Ita) Cannondale Pro Cycling	 	 
+153	Maciej Bodnar (Pol) Cannondale Pro Cycling	 	 
+154	Peter Sagan (Svk) Cannondale Pro Cycling	 	 
+155	Brian Vandborg (Den) Cannondale Pro Cycling	 	 
+156	Fabio Sabatini (Ita) Cannondale Pro Cycling	 	 
+157	Alessandro De Marchi (Ita) Cannondale Pro Cycling	 	 
+158	Bart De Clercq (Bel) Lotto Belisol	 	 
+159	Sébastien Minard (Fra) AG2R La Mondiale	 	 
+160	Markel Irizar Aranburu (Spa) RadioShack Leopard	 	 
+161	Lars Ytting Bak (Den) Lotto Belisol	 	 
+162	Alberto Contador Velasco (Spa) Team Saxo-Tinkoff	 	 
+163	Frederik Willems (Bel) Lotto Belisol	 	 
+164	Ian Stannard (GBr) Sky Procycling	 	 
+165	Rohan Dennis (Aus) Garmin-Sharp	 	 
+166	Matthew Harley Goss (Aus) Orica-GreenEdge	 	 
+167	Svein Tuft (Can) Orica-GreenEdge	 	 
+168	Davide Cimolai (Ita) Lampre-Merida	 	 
+169	Roberto Ferrari (Ita) Lampre-Merida	 	 
+170	Elia Favilli (Ita) Lampre-Merida	 	 
+171	Dmitriy Muravyev (Kaz) Astana Pro Team	 	 
+172	Jérôme Pineau (Fra) Omega Pharma-Quick Step	 	 
+173	Jerome Coppel (Fra) Cofidis, Solutions Credits	 	 
+174	Andreas Klöden (Ger) RadioShack Leopard	 	 
+175	Brent Bookwalter (USA) BMC Racing Team	 	 
+176	Bram Tankink (Ned) Belkin Pro Cycling Team	 	 
+177	Manuele Mori (Ita) Lampre-Merida	 	 
+178	Amaël Moinard (Fra) BMC Racing Team	 	 
+179	Daniel Navarro Garcia (Spa) Cofidis, Solutions Credits	 	 
+180	Imanol Erviti Ollo (Spa) Movistar Team	 	 
+181	André Greipel (Ger) Lotto Belisol	 	 
+182	Jerome Cousin (Fra) Team Europcar	 	 
+183	Murilo Antonio Fischer (Bra) FDJ	 	 
+184	Matteo Bono (Ita) Lampre-Merida	 	 
+185	Janez Brajkovic (Slo) Astana Pro Team	 	 
+186	Alexey Lutsenko (Kaz) Astana Pro Team	 	 
+187	Tony Gallopin (Fra) RadioShack Leopard	 	 
+188	Julien El Fares (Fra) Sojasun	 	 
+189	Egoitz Garcia Echeguibel (Spa) Cofidis, Solutions Credits	 	 
+190	Tony Martin (Ger) Omega Pharma-Quick Step	 	 
+191	Gert Steegmans (Bel) Omega Pharma-Quick Step	 	 
+192	Johnny Hoogerland (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+193	Geraint Thomas (GBr) Sky Procycling	 	 
+194	Kristijan Koren (Slo) Cannondale Pro Cycling	 	 
+195	Bauke Mollema (Ned) Belkin Pro Cycling Team	 	 
+196	Luis Angel Mate Mardones (Spa) Cofidis, Solutions Credits	 	 
+197	Christophe Le Mevel (Fra) Cofidis, Solutions Credits	 	 
+198	Edward King (USA) Cannondale Pro Cycling	 	 

@@ -1,0 +1,180 @@
+1	Vincenzo Nibali (Ita) Astana Pro Team	57:20:52	 
+2	Cadel Evans (Aus) BMC Racing Team	0:01:26	 
+3	Rigoberto Uran Uran (Col) Sky Procycling	0:02:46	 
+4	Mauro Santambrogio (Ita) Vini Fantini-Selle Italia	0:02:47	 
+5	Michele Scarponi (Ita) Lampre-Merida	0:03:53	 
+6	Przemyslaw Niemiec (Pol) Lampre-Merida	0:04:55	 
+7	Domenico Pozzovivo (Ita) Ag2R La Mondiale	0:05:12	 
+8	Rafal Majka (Pol) Team Saxo-Tinkoff	0:05:32	 
+9	Carlos Alberto Betancur Gomez (Col) Ag2R La Mondiale	0:05:39	 
+10	Benat Intxausti Elorriaga (Spa) Movistar Team	0:05:51	 
+11	Robert Gesink (Ned) Blanco Pro Cycling Team	0:06:40	 
+12	Robert Kiserlovski (Cro) RadioShack Leopard	0:06:42	 
+13	Sergio Luis Henao Montoya (Col) Sky Procycling	0:07:06	 
+14	Yury Trofimov (Rus) Katusha	0:07:19	 
+15	Tanel Kangert (Est) Astana Pro Team	0:07:36	 
+16	Franco Pellizotti (Ita) Androni Giocattoli	0:08:11	 
+17	Samuel Sanchez Gonzalez (Spa) Euskaltel-Euskadi	0:08:24	 
+18	Damiano Caruso (Ita) Cannondale Pro Cycling	0:09:53	 
+19	Wilco Kelderman (Ned) Blanco Pro Cycling Team	0:13:23	 
+20	Danilo Di Luca (Ita) Vini Fantini-Selle Italia	0:14:29	 
+21	Evgeny Petrov (Rus) Team Saxo-Tinkoff	0:14:36	 
+22	Rafael Valls Ferri (Spa) Vacansoleil-DCM Pro Cycling Team	 	 
+23	Darwin Atapuma Hurtado (Col) Colombia	0:16:25	 
+24	Francis De Greef (Bel) Lotto Belisol	0:16:44	 
+25	Jose Rodolfo Serpa Perez (Col) Lampre-Merida	0:19:37	 
+26	Steven Kruijswijk (Ned) Blanco Pro Cycling Team	0:21:49	 
+27	Egoi Martinez De Esteban (Spa) Euskaltel-Euskadi	0:22:25	 
+28	Francis Mourey (Fra) FDJ	0:22:44	 
+29	Tiago Machado (Por) RadioShack Leopard	0:28:01	 
+30	Diego Rosa (Ita) Androni Giocattoli	0:29:50	 
+31	Giampaolo Caruso (Ita) Katusha	0:30:01	 
+32	José Herrada Lopez (Spa) Movistar Team	0:32:01	 
+33	Fabio Andres Duarte Arevalo (Col) Colombia	0:34:02	 
+34	Juan Manuel Garate (Spa) Blanco Pro Cycling Team	0:38:35	 
+35	Ivan Santaromita (Ita) BMC Racing Team	0:39:20	 
+36	Thomas Danielson (USA) Garmin-Sharp	0:40:26	 
+37	Hubert Dupont (Fra) Ag2R La Mondiale	0:40:41	 
+38	Jorge Azanza Soto (Spa) Euskaltel-Euskadi	0:43:56	 
+39	Kanstantsin Siutsou (Blr) Sky Procycling	0:46:21	 
+40	Steve Morabito (Swi) BMC Racing Team	0:46:28	 
+41	Petr Ignatenko (Rus) Katusha	0:46:56	 
+42	Pieter Weening (Ned) Orica-GreenEdge	0:47:06	 
+43	Luca Paolini (Ita) Katusha	0:49:18	 
+44	Jarlinson Pantano (Col) Colombia	0:49:50	 
+45	Giovanni Visconti (Ita) Movistar Team	0:53:55	 
+46	Valerio Agnoli (Ita) Astana Pro Team	0:56:24	 
+47	Fabio Felline (Ita) Androni Giocattoli	0:58:03	 
+48	Jackson Rodriguez (Ven) Androni Giocattoli	1:00:41	 
+49	Michal Golas (Pol) Omega Pharma-Quick Step	1:01:10	 
+50	Emanuele Sella (Ita) Androni Giocattoli	1:01:12	 
+51	Stefano Pirazzi (Ita) Bardiani Valvole-CSF Inox	1:01:54	 
+52	Vladimir Karpets (Rus) Movistar Team	1:02:04	 
+53	Francisco José Ventoso Alberdi (Spa) Movistar Team	1:04:19	 
+54	Peter Stetina (USA) Garmin-Sharp	1:05:22	 
+55	Matteo Rabottini (Ita) Vini Fantini-Selle Italia	1:07:54	 
+56	Simone Stortoni (Ita) Lampre-Merida	1:08:07	 
+57	Miguel Angel Rubiano Chavez (Col) Androni Giocattoli	1:08:24	 
+58	Jens Keukeleire (Bel) Orica-GreenEdge	1:08:36	 
+59	Ben Gastauer (Lux) Ag2R La Mondiale	1:09:43	 
+60	Fabio Aru (Ita) Astana Pro Team	1:14:42	 
+61	Leonardo Fabio Duque (Col) Colombia	1:15:27	 
+62	Kristijan Durasek (Cro) Lampre-Merida	1:15:33	 
+63	Rob Ruijgh (Ned) Vacansoleil-DCM Pro Cycling Team	1:16:17	 
+64	Thomas Damuseau (Fra) Team Argos-Shimano	1:17:55	 
+65	Serge Pauwels (Bel) Omega Pharma-Quick Step	1:18:44	 
+66	Paolo Longo Borghini (Ita) Cannondale Pro Cycling	1:20:02	 
+67	Bruno Pires (Por) Team Saxo-Tinkoff	1:21:31	 
+68	Marco Marcato (Ita) Vacansoleil-DCM Pro Cycling Team	1:22:42	 
+69	Rory Sutherland (Aus) Team Saxo-Tinkoff	1:24:28	 
+70	Paul Martens (Ger) Blanco Pro Cycling Team	1:24:52	 
+71	Stef Clement (Ned) Blanco Pro Cycling Team	1:24:56	 
+72	Francesco Manuel Bongiorno (Ita) Bardiani Valvole-CSF Inox	1:26:00	 
+73	Nelson Filipe Santos Simoes Oliveira (Por) RadioShack Leopard	1:26:05	 
+74	Adam Hansen (Aus) Lotto Belisol	1:27:17	 
+75	Daniele Pietropolli (Ita) Lampre-Merida	1:27:53	 
+76	Dario Cataldo (Ita) Sky Procycling	1:28:52	 
+77	Cayetano José Sarmiento Tunarrosa (Col) Cannondale Pro Cycling	1:29:47	 
+78	Koen De Kort (Ned) Team Argos-Shimano	1:31:45	 
+79	Salvatore Puccio (Ita) Sky Procycling	1:31:50	 
+80	Cristiano Salerno (Ita) Cannondale Pro Cycling	1:32:03	 
+81	Vladimir Gusev (Rus) Katusha	1:32:34	 
+82	Frederik Veuchelen (Bel) Vacansoleil-DCM Pro Cycling Team	1:33:11	 
+83	Fredrik Carl Wilhelm Kessiakoff (Swe) Astana Pro Team	1:33:44	 
+84	Dominique Rollin (Can) FDJ	1:35:06	 
+85	Eros Capecchi (Ita) Movistar Team	1:37:18	 
+86	Robinson Eduardo Chalapud Gomez (Col) Colombia	1:37:51	 
+87	Robert Vrecer (Slo) Euskaltel-Euskadi	1:37:54	 
+88	Danilo Wyss (Swi) BMC Racing Team	1:38:41	 
+89	Ramunas Navardauskas (Ltu) Garmin-Sharp	1:40:54	 
+90	Gorka Verdugo Marcotegui (Spa) Euskaltel-Euskadi	1:40:56	 
+91	Sonny Colbrelli (Ita) Bardiani Valvole-CSF Inox	1:42:09	 
+92	Christian Knees (Ger) Sky Procycling	1:43:23	 
+93	Oscar Gatto (Ita) Vini Fantini-Selle Italia	1:44:23	 
+94	Fabio Sabatini (Ita) Cannondale Pro Cycling	1:44:24	 
+95	Anthony Roux (Fra) FDJ	1:44:58	 
+96	Guillaume Bonnafond (Fra) Ag2R La Mondiale	1:45:54	 
+97	Danilo Hondo (Ger) RadioShack Leopard	1:45:56	 
+98	Stefano Locatelli (Ita) Bardiani Valvole-CSF Inox	1:47:01	 
+99	Andrey Zeits (Kaz) Astana Pro Team	1:47:09	 
+100	Patrick Gretsch (Ger) Team Argos-Shimano	1:47:17	 
+101	Pablo Lastras Garcia (Spa) Movistar Team	1:48:19	 
+102	Martijn Keizer (Ned) Vacansoleil-DCM Pro Cycling Team	1:50:03	 
+103	Vicente Reynes Mimo (Spa) Lotto Belisol	 	 
+104	Stefano Garzelli (Ita) Vini Fantini-Selle Italia	1:51:09	 
+105	Juan Jose Cobo Acebo (Spa) Movistar Team	1:51:44	 
+106	Gert Dockx (Bel) Lotto Belisol	1:51:49	 
+107	Manuele Boaro (Ita) Team Saxo-Tinkoff	1:52:24	 
+108	Lars Ytting Bak (Den) Lotto Belisol	1:53:04	 
+109	Alessandro Proni (Ita) Vini Fantini-Selle Italia	1:53:10	 
+110	Elia Viviani (Ita) Cannondale Pro Cycling	1:53:11	 
+111	Tiziano Dall'Antonia (Ita) Cannondale Pro Cycling	1:53:37	 
+112	Matteo Trentin (Ita) Omega Pharma-Quick Step	1:55:07	 
+113	Mads Christensen (Den) Team Saxo-Tinkoff	1:56:50	 
+114	Christian Vande Velde (USA) Garmin-Sharp	1:57:45	 
+115	Pavel Brutt (Rus) Katusha	1:58:22	 
+116	Dirk Bellemakers (Ned) Lotto Belisol	1:59:13	 
+117	Paolo Tiralongo (Ita) Astana Pro Team	2:00:59	 
+118	Alan Marangoni (Ita) Cannondale Pro Cycling	2:01:28	 
+119	Hayden Roulston (NZl) RadioShack Leopard	2:02:17	 
+120	Brett Lancaster (Aus) Orica-GreenEdge	2:02:23	 
+121	Maarten Tjallingii (Ned) Blanco Pro Cycling Team	2:02:28	 
+122	Dmitry Kozontchuk (Rus) Katusha	2:02:37	 
+123	Xabier Zandio Echaide (Spa) Sky Procycling	2:02:55	 
+124	Filippo Pozzato (Ita) Lampre-Merida	2:03:06	 
+125	Johan Le Bon (Fra) FDJ	2:03:08	 
+126	Gianluca Brambilla (Ita) Omega Pharma-Quick Step	2:03:22	 
+127	Frederik Willems (Bel) Lotto Belisol	2:04:04	 
+128	Luka Mezgec (Slo) Team Argos-Shimano	2:06:03	 
+129	Jérôme Pineau (Fra) Omega Pharma-Quick Step	2:08:24	 
+130	Giacomo Nizzolo (Ita) RadioShack Leopard	2:08:53	 
+131	Tobias Ludvigsson (Swe) Team Argos-Shimano	2:09:00	 
+132	George Bennett (NZl) RadioShack Leopard	2:11:27	 
+133	Grega Bole (Slo) Vacansoleil-DCM Pro Cycling Team	2:12:58	 
+134	Mark Cavendish (GBr) Omega Pharma-Quick Step	2:13:42	 
+135	Julien Vermote (Bel) Omega Pharma-Quick Step	2:14:31	 
+136	Albert Timmer (Ned) Team Argos-Shimano	2:14:32	 
+137	Nicola Boem (Ita) Bardiani Valvole-CSF Inox	2:15:16	 
+138	Yaroslav Popovych (Ukr) RadioShack Leopard	2:15:59	 
+139	Danny Pate (USA) Sky Procycling	2:16:24	 
+140	Daniel Oss (Ita) BMC Racing Team	2:16:44	 
+141	Sacha Modolo (Ita) Bardiani Valvole-CSF Inox	2:16:48	 
+142	Edoardo Zardini (Ita) Bardiani Valvole-CSF Inox	2:17:53	 
+143	Cameron Wurf (Aus) Cannondale Pro Cycling	2:18:22	 
+144	Christian Meier (Can) Orica-GreenEdge	2:18:37	 
+145	Manuel Belletti (Ita) Ag2R La Mondiale	2:19:50	 
+146	Luke Durbridge (Aus) Orica-GreenEdge	2:20:35	 
+147	Marco Canola (Ita) Bardiani Valvole-CSF Inox	2:21:28	 
+148	Maxim Belkov (Rus) Katusha	2:21:49	 
+149	Murilo Antonio Fischer (Bra) FDJ	2:22:14	 
+150	Robert Hunter (RSA) Garmin-Sharp	2:23:43	 
+151	Roberto Ferrari (Ita) Lampre-Merida	2:25:38	 
+152	Matthew Harley Goss (Aus) Orica-GreenEdge	2:26:43	 
+153	Ricardo Mestre (Por) Euskaltel-Euskadi	2:28:10	 
+154	Jesse Sergent (NZl) RadioShack Leopard	2:28:24	 
+155	Alex Dowsett (GBr) Movistar Team	2:28:31	 
+156	Dmitriy Gruzdev (Kaz) Astana Pro Team	2:29:37	 
+157	Stephen Cummings (GBr) BMC Racing Team	2:30:00	 
+158	Thomas Dekker (Ned) Garmin-Sharp	2:31:32	 
+159	Maarten Wynants (Bel) Blanco Pro Cycling Team	2:31:59	 
+160	Svein Tuft (Can) Orica-GreenEdge	2:32:48	 
+161	Taylor Phinney (USA) BMC Racing Team	2:33:54	 
+162	Ioannis Tamouridis (Gre) Euskaltel-Euskadi	2:33:55	 
+163	Giairo Ermeti (Ita) Androni Giocattoli	2:39:13	 
+164	Maurits Lammertink (Ned) Vacansoleil-DCM Pro Cycling Team	2:39:35	 
+165	Jens Mouris (Ned) Orica-GreenEdge	2:41:24	 
+166	Brian Bulgac (Ned) Lotto Belisol	2:42:07	 
+167	Iljo Keisse (Bel) Omega Pharma-Quick Step	2:43:01	 
+168	Willem Wauters (Bel) Vacansoleil-DCM Pro Cycling Team	2:43:51	 
+169	Bert De Backer (Bel) Team Argos-Shimano	2:44:06	 
+170	Kenny Dehaes (Bel) Lotto Belisol	2:49:00	 
+171	Pim Ligthart (Ned) Vacansoleil-DCM Pro Cycling Team	2:52:00	 
+172	Nathan Haas (Aus) Garmin-Sharp	2:56:45	 
+173	Laurent Pichon (Fra) FDJ	3:00:31	 
+174	Adam Blythe (GBr) BMC Racing Team	3:01:52	 
+175	Miguel Minguez Ayala (Spa) Euskaltel-Euskadi	3:02:37	 
+176	Davide Appollonio (Ita) Ag2R La Mondiale	3:03:14	 
+177	Rafael Andriato (Bra) Vini Fantini-Selle Italia	3:04:34	 
+178	Wilson Alexander Marentes Torres (Col) Colombia	3:06:15	 
+179	Edwin Alcibiades Avila Vanegas (Col) Colombia	3:07:11	 
+180	Mattia Gavazzi (Ita) Androni Giocattoli	3:24:38	 

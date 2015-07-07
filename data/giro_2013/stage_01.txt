@@ -1,0 +1,207 @@
+1	Mark Cavendish (GBr) Omega Pharma-Quick Step	2:58:18	 
+2	Elia Viviani (Ita) Cannondale Pro Cycling	0:00:08	 
+3	Nacer Bouhanni (Fra) FDJ	0:00:12	 
+4	Danilo Hondo (Ger) RadioShack Leopard	0:00:16	 
+5	Marco Marcato (Ita) Vacansoleil-DCM Pro Cycling Team	0:00:18	 
+6	Giacomo Nizzolo (Ita) RadioShack Leopard	0:00:20	 
+7	Matthew Harley Goss (Aus) Orica-GreenEdge	 	 
+8	Francisco José Ventoso Alberdi (Spa) Movistar Team	 	 
+9	Adam Blythe (GBr) BMC Racing Team	 	 
+10	Leigh Howard (Aus) Orica-GreenEdge	 	 
+11	Brett Lancaster (Aus) Orica-GreenEdge	 	 
+12	John Degenkolb (Ger) Team Argos-Shimano	 	 
+13	Luca Paolini (Ita) Katusha	 	 
+14	Ioannis Tamouridis (Gre) Euskaltel-Euskadi	 	 
+15	Diego Rosa (Ita) Androni Giocattoli	 	 
+16	Ramunas Navardauskas (Ltu) Garmin-Sharp	 	 
+17	Roberto Ferrari (Ita) Lampre-Merida	 	 
+18	Robert Hunter (RSA) Garmin-Sharp	 	 
+19	Tanel Kangert (Est) Astana Pro Team	 	 
+20	Andrey Zeits (Kaz) Astana Pro Team	 	 
+21	Nathan Haas (Aus) Garmin-Sharp	 	 
+22	Danilo Wyss (Swi) BMC Racing Team	 	 
+23	Taylor Phinney (USA) BMC Racing Team	 	 
+24	Alessandro Vanotti (Ita) Astana Pro Team	 	 
+25	Cadel Evans (Aus) BMC Racing Team	 	 
+26	Rob Ruijgh (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+27	Arnold Jeannesson (Fra) FDJ	 	 
+28	Benat Intxausti Elorriaga (Spa) Movistar Team	 	 
+29	Vincenzo Nibali (Ita) Astana Pro Team	 	 
+30	Dominique Rollin (Can) FDJ	 	 
+31	Mauro Santambrogio (Ita) Vini Fantini-Selle Italia	 	 
+32	Michele Scarponi (Ita) Lampre-Merida	 	 
+33	Salvatore Puccio (Ita) Sky Procycling	 	 
+34	Filippo Pozzato (Ita) Lampre-Merida	 	 
+35	Giovanni Visconti (Ita) Movistar Team	 	 
+36	Rafael Andriato (Bra) Vini Fantini-Selle Italia	 	 
+37	Vicente Reynes Mimo (Spa) Lotto Belisol	 	 
+38	José Herrada Lopez (Spa) Movistar Team	 	 
+39	Adam Hansen (Aus) Lotto Belisol	 	 
+40	Samuel Sanchez Gonzalez (Spa) Euskaltel-Euskadi	 	 
+41	Julien Berard (Fra) Ag2R La Mondiale	 	 
+42	Egoi Martinez De Esteban (Spa) Euskaltel-Euskadi	 	 
+43	Juan Jose Cobo Acebo (Spa) Movistar Team	 	 
+44	Jorge Azanza Soto (Spa) Euskaltel-Euskadi	 	 
+45	Daniele Bennati (Ita) Team Saxo-Tinkoff	 	 
+46	Nelson Filipe Santos Simoes Oliveira (Por) RadioShack Leopard	 	 
+47	Iljo Keisse (Bel) Omega Pharma-Quick Step	 	 
+48	Franco Pellizotti (Ita) Androni Giocattoli	 	 
+49	Pieter Weening (Ned) Orica-GreenEdge	 	 
+50	Jackson Rodriguez (Ven) Androni Giocattoli	 	 
+51	Daniel Oss (Ita) BMC Racing Team	 	 
+52	Giampaolo Caruso (Ita) Katusha	 	 
+53	Simone Stortoni (Ita) Lampre-Merida	 	 
+54	Fabio Aru (Ita) Astana Pro Team	 	 
+55	Pavel Brutt (Rus) Katusha	 	 
+56	Steven Kruijswijk (Ned) Blanco Pro Cycling Team	 	 
+57	Rafal Majka (Pol) Team Saxo-Tinkoff	 	 
+58	Alex Dowsett (GBr) Movistar Team	 	 
+59	Leonardo Fabio Duque (Col) Colombia	 	 
+60	Cristiano Salerno (Ita) Cannondale Pro Cycling	 	 
+61	Carlos Alberto Betancur Gomez (Col) Ag2R La Mondiale	 	 
+62	Robert Gesink (Ned) Blanco Pro Cycling Team	 	 
+63	Ryder Hesjedal (Can) Garmin-Sharp	 	 
+64	Bradley Wiggins (GBr) Sky Procycling	 	 
+65	Stefano Pirazzi (Ita) Bardiani Valvole-CSF Inox	 	 
+66	Vladimir Gusev (Rus) Katusha	 	 
+67	Sonny Colbrelli (Ita) Bardiani Valvole-CSF Inox	 	 
+68	Koen De Kort (Ned) Team Argos-Shimano	 	 
+69	Christian Meier (Can) Orica-GreenEdge	 	 
+70	Michal Golas (Pol) Omega Pharma-Quick Step	 	 
+71	Sergio Luis Henao Montoya (Col) Sky Procycling	 	 
+72	Francis Mourey (Fra) FDJ	 	 
+73	Luke Durbridge (Aus) Orica-GreenEdge	 	 
+74	Carlos Julian Quintero (Col) Colombia	 	 
+75	Nicola Boem (Ita) Bardiani Valvole-CSF Inox	 	 
+76	Gorka Verdugo Marcotegui (Spa) Euskaltel-Euskadi	 	 
+77	Robert Kiserlovski (Cro) RadioShack Leopard	 	 
+78	Kanstantsin Siutsou (Blr) Sky Procycling	 	 
+79	Eros Capecchi (Ita) Movistar Team	 	 
+80	Matti Breschel (Den) Team Saxo-Tinkoff	 	 
+81	Daniele Pietropolli (Ita) Lampre-Merida	 	 
+82	Fabio Sabatini (Ita) Cannondale Pro Cycling	 	 
+83	Gert Steegmans (Bel) Omega Pharma-Quick Step	 	 
+84	Dario Cataldo (Ita) Sky Procycling	 	 
+85	Bruno Pires (Por) Team Saxo-Tinkoff	 	 
+86	Stefano Locatelli (Ita) Bardiani Valvole-CSF Inox	 	 
+87	Xabier Zandio Echaide (Spa) Sky Procycling	 	 
+88	Evgeny Petrov (Rus) Team Saxo-Tinkoff	 	 
+89	Ivan Santaromita (Ita) BMC Racing Team	 	 
+90	Juan Manuel Garate (Spa) Blanco Pro Cycling Team	 	 
+91	Yury Trofimov (Rus) Katusha	 	 
+92	Gianluca Brambilla (Ita) Omega Pharma-Quick Step	 	 
+93	Wilco Kelderman (Ned) Blanco Pro Cycling Team	 	 
+94	Peter Stetina (USA) Garmin-Sharp	 	 
+95	Fabio Felline (Ita) Androni Giocattoli	 	 
+96	Sacha Modolo (Ita) Bardiani Valvole-CSF Inox	 	 
+97	Gert Dockx (Bel) Lotto Belisol	 	 
+98	Maarten Wynants (Bel) Blanco Pro Cycling Team	 	 
+99	Stefano Garzelli (Ita) Vini Fantini-Selle Italia	 	 
+100	Karsten Kroon (Ned) Team Saxo-Tinkoff	 	 
+101	Cayetano José Sarmiento Tunarrosa (Col) Cannondale Pro Cycling	 	 
+102	Lars Ytting Bak (Den) Lotto Belisol	 	 
+103	Alessandro Proni (Ita) Vini Fantini-Selle Italia	 	 
+104	Ricardo Mestre (Por) Euskaltel-Euskadi	 	 
+105	Mattia Cattaneo (Ita) Lampre-Merida	 	 
+106	Rafael Valls Ferri (Spa) Vacansoleil-DCM Pro Cycling Team	 	 
+107	Petr Ignatenko (Rus) Katusha	 	 
+108	Luka Mezgec (Slo) Team Argos-Shimano	 	 
+109	Anthony Roux (Fra) FDJ	 	 
+110	Dalivier Ospina Navarro (Col) Colombia	 	 
+111	Pablo Lastras Garcia (Spa) Movistar Team	 	 
+112	Davide Appollonio (Ita) Ag2R La Mondiale	 	 
+113	Danilo Di Luca (Ita) Vini Fantini-Selle Italia	 	 
+114	Miguel Angel Rubiano Chavez (Col) Androni Giocattoli	 	 
+115	Vladimir Karpets (Rus) Movistar Team	 	 
+116	George Bennett (NZl) RadioShack Leopard	 	 
+117	Rory Sutherland (Aus) Team Saxo-Tinkoff	 	 
+118	Frederik Willems (Bel) Lotto Belisol	 	 
+119	Francesco Manuel Bongiorno (Ita) Bardiani Valvole-CSF Inox	 	 
+120	Francis De Greef (Bel) Lotto Belisol	 	 
+121	Thomas Danielson (USA) Garmin-Sharp	 	 
+122	Robert Vrecer (Slo) Euskaltel-Euskadi	 	 
+123	Przemyslaw Niemiec (Pol) Lampre-Merida	 	 
+124	Darwin Atapuma Hurtado (Col) Colombia	 	 
+125	Rigoberto Uran Uran (Col) Sky Procycling	 	 
+126	Tiago Machado (Por) RadioShack Leopard	 	 
+127	Tomas Aurelio Gil Martinez (Ven) Androni Giocattoli	 	 
+128	Fabio Taborre (Ita) Vini Fantini-Selle Italia	 	 
+129	Guillaume Bonnafond (Fra) Ag2R La Mondiale	 	 
+130	Jose Rodolfo Serpa Perez (Col) Lampre-Merida	 	 
+131	Grega Bole (Slo) Vacansoleil-DCM Pro Cycling Team	 	 
+132	Frederik Veuchelen (Bel) Vacansoleil-DCM Pro Cycling Team	 	 
+133	Willem Wauters (Bel) Vacansoleil-DCM Pro Cycling Team	 	 
+134	Serge Pauwels (Bel) Omega Pharma-Quick Step	 	 
+135	Matteo Rabottini (Ita) Vini Fantini-Selle Italia	 	 
+136	Fredrik Carl Wilhelm Kessiakoff (Swe) Astana Pro Team	 	 
+137	Hayden Roulston (NZl) RadioShack Leopard	 	 
+138	Jesse Sergent (NZl) RadioShack Leopard	 	 
+139	Dirk Bellemakers (Ned) Lotto Belisol	 	 
+140	Dmitriy Gruzdev (Kaz) Astana Pro Team	 	 
+141	Maarten Tjallingii (Ned) Blanco Pro Cycling Team	 	 
+142	Kristijan Durasek (Cro) Lampre-Merida	 	 
+143	Thomas Damuseau (Fra) Team Argos-Shimano	 	 
+144	Paolo Longo Borghini (Ita) Cannondale Pro Cycling	 	 
+145	Mads Christensen (Den) Team Saxo-Tinkoff	 	 
+146	Marco Canola (Ita) Bardiani Valvole-CSF Inox	 	 
+147	Paolo Tiralongo (Ita) Astana Pro Team	 	 
+148	Edoardo Zardini (Ita) Bardiani Valvole-CSF Inox	 	 
+149	Dmitry Kozontchuk (Rus) Katusha	 	 
+150	Enrico Battaglin (Ita) Bardiani Valvole-CSF Inox	 	 
+151	Valerio Agnoli (Ita) Astana Pro Team	 	 
+152	Damiano Caruso (Ita) Cannondale Pro Cycling	 	 
+153	Manuele Boaro (Ita) Team Saxo-Tinkoff	 	 
+154	Domenico Pozzovivo (Ita) Ag2R La Mondiale	 	 
+155	Fabio Andres Duarte Arevalo (Col) Colombia	 	 
+156	Miguel Minguez Ayala (Spa) Euskaltel-Euskadi	 	 
+157	Tobias Ludvigsson (Swe) Team Argos-Shimano	 	 
+158	Ben Gastauer (Lux) Ag2R La Mondiale	 	 
+159	Christian Vande Velde (USA) Garmin-Sharp	 	 
+160	Svein Tuft (Can) Orica-GreenEdge	 	 
+161	Alan Marangoni (Ita) Cannondale Pro Cycling	 	 
+162	Jens Mouris (Ned) Orica-GreenEdge	 	 
+163	Hubert Dupont (Fra) Ag2R La Mondiale	 	 
+164	Paul Martens (Ger) Blanco Pro Cycling Team	 	 
+165	Jarlinson Pantano (Col) Colombia	 	 
+166	Robinson Eduardo Chalapud Gomez (Col) Colombia	 	 
+167	Oscar Gatto (Ita) Vini Fantini-Selle Italia	 	 
+168	Maurits Lammertink (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+169	Johan Le Bon (Fra) FDJ	 	 
+170	Emanuele Sella (Ita) Androni Giocattoli	 	 
+171	Sandy Casar (Fra) FDJ	 	 
+172	Steve Morabito (Swi) BMC Racing Team	 	 
+173	Angel Vicioso Arcos (Spa) Katusha	 	 
+174	Sylvain Georges (Fra) Ag2R La Mondiale	 	 
+175	Danny Pate (USA) Sky Procycling	 	 
+176	Stephen Cummings (GBr) BMC Racing Team	 	 
+177	Tiziano Dall'Antonia (Ita) Cannondale Pro Cycling	 	 
+178	Yaroslav Popovych (Ukr) RadioShack Leopard	 	 
+179	Klaas Lodewyck (Bel) BMC Racing Team	 	 
+180	Matteo Trentin (Ita) Omega Pharma-Quick Step	 	 
+181	Giairo Ermeti (Ita) Androni Giocattoli	 	 
+182	Murilo Antonio Fischer (Bra) FDJ	 	 
+183	Jens Keukeleire (Bel) Orica-GreenEdge	 	 
+184	Edwin Alcibiades Avila Vanegas (Col) Colombia	 	 
+185	Mattia Gavazzi (Ita) Androni Giocattoli	 	 
+186	Manuel Belletti (Ita) Ag2R La Mondiale	 	 
+187	David Millar (GBr) Garmin-Sharp	 	 
+188	Francesco Chicchi (Ita) Vini Fantini-Selle Italia	 	 
+189	Kenny Dehaes (Bel) Lotto Belisol	0:01:17	 
+190	Bert De Backer (Bel) Team Argos-Shimano	0:01:21	 
+191	Thomas Dekker (Ned) Garmin-Sharp	0:01:25	 
+192	Albert Timmer (Ned) Team Argos-Shimano	0:01:36	 
+193	Cameron Wurf (Aus) Cannondale Pro Cycling	0:02:52	 
+194	Jérôme Pineau (Fra) Omega Pharma-Quick Step	0:02:54	 
+195	Christian Knees (Ger) Sky Procycling	0:02:58	 
+196	Martijn Keizer (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+197	Patrick Gretsch (Ger) Team Argos-Shimano	 	 
+198	Jack Bobridge (Aus) Blanco Pro Cycling Team	 	 
+199	Maxim Belkov (Rus) Katusha	 	 
+200	Laurent Pichon (Fra) FDJ	 	 
+201	Ji Cheng (Chn) Team Argos-Shimano	 	 
+202	Pim Ligthart (Ned) Vacansoleil-DCM Pro Cycling Team	 	 
+203	Wilson Alexander Marentes Torres (Col) Colombia	0:03:23	 
+204	Brian Bulgac (Ned) Lotto Belisol	 	 
+205	Julien Vermote (Bel) Omega Pharma-Quick Step	0:03:25	 
+206	Stef Clement (Ned) Blanco Pro Cycling Team	0:05:27	 
+207	Pablo Urtasun Perez (Spa) Euskaltel-Euskadi	 	 
