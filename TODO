@@ -1,0 +1,26 @@
+Colouring
+- Add team colors to teams.js
+- When plotting rider, make its line has the color of the team
+	- When multiple riders of the same team, use different shades/pattern
+
+Label and information
+- Mouse over points show rider name and value
+	- Over multiple points with same time showing all riders under the mouse?
+- Move legend to top left, as it's the empty space
+
+Selection
+- Left div with multple selection options
+	- Select by team
+	- Select by current GC
+	- Select by stage GC (??????)
+	- Select favourites
+- When a rider is selected, it is added to the right panel and the plot is redrawn
+- Right div with Currently selected riders
+- Center panel with the chart
+
+Collecting data
+- Improve parsing code to allow showing the points classification, youth and maybe team classification
+- Gather sprint points data
+
+General
+- Add stuff to bootstrap template
