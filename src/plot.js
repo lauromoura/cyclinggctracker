@@ -10,6 +10,9 @@ function plotAccordingToChoices(dataset) {
         $.plot("#flot-placeholder", data, {
             legend: {
                 position: "nw"
+            },
+            yaxis: {
+                tickSize:60,
             }
         });
     }
