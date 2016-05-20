@@ -9,10 +9,12 @@ function plotAccordingToChoices(dataset) {
     if (data.length > 0) {
         $.plot("#flot-placeholder", data, {
             legend: {
-                position: "nw"
+                position: "sw"
             },
             yaxis: {
                 tickSize:60,
+                transform: function(v) { return -v; },
+                inverseTransform: function(v) { return -v; }
             }
         });
     }
