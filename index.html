@@ -58,30 +58,9 @@
         var data = [];
         $.plot("#flot-placeholder", [data]);
 
-        var giro_favourites = [
-            "Mikel Landa Meana",
-            "Tom Dumoulin",
-            "Vincenzo Nibali",
-            "Alejandro Valverde",
-            "Steven Kruijswijk",
-            "Rigoberto Uran",
-            "Esteban Chaves",
-            "Ilnur Zakarin",
-            "Andrey Amador",
-            "Rafal Majka",
-            "Bob Jungels",
-            "Gianluca Brambilla",
-            "Ryder Hesjedal",
-            "Jakob Fuglsang",
-            "Domenico Pozzovivo",
-            "Diego Ulissi",
-        ];
-
-        var favourites = giro_favourites;
-
         $.getJSON('data/output.json', function(json, textStatus) {
             $.getJSON('data/teams.json', function(teams, textStatus2) {
-                dataset = filter_riders(favourites, json, teams);
+                dataset = filter_top_riders(15, json, teams);
                 fillCheckboxes(dataset);
                 plotAccordingToChoices(dataset);
             });
@@ -115,6 +94,7 @@
     <div class="container">
 		<div class="starter-template">
             <h1>Giro d'Italia 2016 General Classification gaps</h1>
+            <p>How the gap (in seconds) evolved over every stage.</p>
             <div class="data-container">
                 <div id="checkboxes" class="right-box"></div>
                 <div id="flot-placeholder" class="placeholder"></div>

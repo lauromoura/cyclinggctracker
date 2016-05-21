@@ -20,30 +20,34 @@ function plotAccordingToChoices(dataset) {
     }
 }
 
-function filter_riders(names, json, teams) {
-    var dataset = {};
-    for (var i=0; i < names.length; i++) {
-        console.log("Getting " + names[i]);
-        rider = json[names[i]];
-        if (!rider) {
-            console.log("Missing " + names[i])
-            continue
-        }
+function filter_top_riders(n, json, teams)
+{
+    var dataset = [];
+    for (var key in json) {
+        if (!json.hasOwnProperty(key))
+            continue;
+
+        if (json[key].pos > n)
+            continue;
+
+        var rider = json[key];
         var riderData = { data: [], label: rider.name }
         rider.time.forEach(function(timeBehindLeader, stage){
             riderData.data.push([stage+1, timeBehindLeader]);
         });
         riderData['color'] = teams[rider.team]['color'];
-        dataset[rider.name] = riderData;
+        riderData['gcplace'] = rider.pos - 1;
+        dataset[rider.pos-1] = riderData;
     }
     return dataset;
 }
 
 function fillCheckboxes(dataset) {
     var choicesContainer = $("#checkboxes");
-    $.each(dataset, function(key, val){
-        choicesContainer.append("<br/><input type='checkbox' name='" + key + "' checked='checked' id='id" + key + "'></input>" +
-            "<label for='id" + key + "'>" + val.label + "</label>");
+    $.each(dataset, function(idx){
+        var rider = dataset[idx];
+        choicesContainer.append("<br/><input type='checkbox' name='" + rider.gcplace + "' checked='checked' id='id" + rider.label + "'></input>" +
+            "<label for='id" + rider.label + "'>" + rider.label + "</label>");
     });
 
     choicesContainer.find("input").click(function () {
