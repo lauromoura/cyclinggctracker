@@ -2,25 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Giro 2016 chart</title>
+    <title>Giro 2016 General Classification Gaps</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.time.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.symbol.min.js"></script>
     <script type="text/javascript" src="src/plot.js"></script>
     <!-- <script type="text/javascript" src="lib/jquery.flot.axislabels.min.js"></script>-->
+
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+
     <style type="text/css">
-    .container {
+
+    body {
+        padding-top: 50px;
+    }
+    .starter-template {
+        padding: 10px 15px;
+    }
+    .data-container {
         width: 100%;
         overflow: hidden;
     }
     .placeholder {
         width: 70%;
-        height: 600px;
+        height: 500px;
         margin-left: 30%;
     }
     .right-box {
-        width: 300px;
+        width: 30%;
         float: left;
     }
     </style>
@@ -60,9 +78,36 @@
     </script>
 </head>
 <body>
-    <div class=".container">
-        <div id="checkboxes" class="right-box"></div>
-        <div id="flot-placeholder" class="placeholder"></div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">GC tracker</a>
+        </div>
+        <div class="container">
+            <div id="navbar" class="collapse navbar-collapse">
+                 <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#about">About</a></li>
+                    <li class="active"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+		<div class="starter-template">
+            <h1>Giro d'Italia 2016 General Classification gaps</h1>
+            <div class="data-container">
+                <div id="checkboxes" class="right-box"></div>
+                <div id="flot-placeholder" class="placeholder"></div>
+            </div>
+		</div>
     </div>
 </body>
 </html>
