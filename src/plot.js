@@ -20,7 +20,7 @@ function plotAccordingToChoices(dataset) {
     }
 }
 
-function filter_riders(names, json) {
+function filter_riders(names, json, teams) {
     var dataset = {};
     for (var i=0; i < names.length; i++) {
         console.log("Getting " + names[i]);
@@ -33,6 +33,7 @@ function filter_riders(names, json) {
         rider.time.forEach(function(timeBehindLeader, stage){
             riderData.data.push([stage+1, timeBehindLeader]);
         });
+        riderData['color'] = teams[rider.team]['color'];
         dataset[rider.name] = riderData;
     }
     return dataset;

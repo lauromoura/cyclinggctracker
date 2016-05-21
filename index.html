@@ -80,9 +80,11 @@
         var favourites = giro_favourites;
 
         $.getJSON('data/output.json', function(json, textStatus) {
-            dataset = filter_riders(favourites, json);
-            fillCheckboxes(dataset);
-            plotAccordingToChoices(dataset);
+            $.getJSON('data/teams.json', function(teams, textStatus2) {
+                dataset = filter_riders(favourites, json, teams);
+                fillCheckboxes(dataset);
+                plotAccordingToChoices(dataset);
+            });
         });
     });
     </script>
