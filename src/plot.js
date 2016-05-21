@@ -1,3 +1,26 @@
+function bind_handlers() {
+    $("#flot-placeholder").bind("plothover", function(event, pos, item) {
+        if (!item) {
+            $("#tooltip").hide();
+            return;
+        }
+
+        var x = item.datapoint[0].toFixed(0);
+        var y = item.datapoint[1].toFixed(2);
+
+        var string = item.series.label;
+        if (y == 0)
+            string += ": leader";
+        else
+            string += ": " + y + "";
+        string += " at stage " + x;
+
+        $("#tooltip").html(string)
+            .css({top:item.pageY+5, left: item.pageX+5})
+            .fadeIn(200);
+    });
+}
+
 function plotAccordingToChoices(dataset) {
     var data = []
     $("#checkboxes").find("input:checked").each(function(){
@@ -15,6 +38,9 @@ function plotAccordingToChoices(dataset) {
                 tickSize:60,
                 transform: function(v) { return -v; },
                 inverseTransform: function(v) { return -v; }
+            },
+            grid: {
+                hoverable: true
             }
         });
     }
