@@ -94,7 +94,7 @@ function fillCheckboxes(dataset) {
     $.each(dataset, function(idx){
         var rider = dataset[idx];
         choicesContainer.append("<br/><input type='checkbox' name='" + rider.gcplace + "' checked='checked' id='id" + rider.label + "'></input>" +
-            "<label for='id" + rider.label + "'>" + rider.label + "</label>");
+            "<label for='id" + rider.label + "'>" +  (rider.gcplace + 1) + ": "+ rider.label + "</label>");
     });
 
     choicesContainer.find("input").click(function () {
