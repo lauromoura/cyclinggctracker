@@ -21,12 +21,33 @@ function bind_handlers() {
     });
 }
 
+/**
+ * Ajudsts obj data member with the difference to the reference dataseries
+ */
+function adjust(obj, reference) {
+    var newdata = new Array();
+    obj.data.map(function(datapoint, index) {
+        var stage = datapoint[0];
+        var gap = datapoint[1];
+        var ref_gap = reference.data[index][1];
+        newdata.push([stage, gap - ref_gap]);
+    })
+    obj.data = newdata
+}
+
 function plotAccordingToChoices(dataset) {
-    var data = []
+    var data = [];
+    var reference = selected_reference();
+    var referenceData = dataset[reference];
+    console.log(referenceData);
     $("#checkboxes").find("input:checked").each(function(){
         var key = $(this).attr('name');
-        if (key && dataset[key])
-            data.push(dataset[key]);
+        if (key && dataset[key]) {
+            var currentData = jQuery.extend(true, {}, dataset[key]);
+            if (reference != 0)
+                adjust(currentData, referenceData)
+            data.push(currentData);
+        }
     });
 
     if (data.length > 0) {
@@ -80,4 +101,20 @@ function fillCheckboxes(dataset) {
         plotAccordingToChoices(dataset);
     });
 
+}
+
+function selected_reference() {
+    return $("select option:selected").val();
+}
+
+function fillReferenceCombo(dataset) {
+    var combo = $("#reference");
+    $.each(dataset, function(idx) {
+        var rider = dataset[idx];
+        combo.append(new Option(rider.label, rider.gcplace));
+    });
+
+    combo.change(function(){
+        plotAccordingToChoices(dataset);
+    });
 }

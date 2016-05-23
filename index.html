@@ -70,6 +70,7 @@
         $.getJSON('data/output.json', function(json, textStatus) {
             $.getJSON('data/teams.json', function(teams, textStatus2) {
                 dataset = filter_top_riders(15, json, teams);
+                fillReferenceCombo(dataset);
                 fillCheckboxes(dataset);
                 plotAccordingToChoices(dataset);
             });
@@ -105,6 +106,8 @@
             <h1>Giro d'Italia 2016 General Classification gaps</h1>
             <p>How the gap (in seconds) evolved over every stage.</p>
             <div class="data-container">
+                <div id="referenceContainer">Reference rider:<select
+                        id="reference"></select></div>
                 <div id="checkboxes" class="right-box"></div>
                 <div id="flot-placeholder" class="placeholder"></div>
             </div>
