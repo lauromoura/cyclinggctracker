@@ -1,0 +1,10 @@
+1	Steven Kruijswijk (Ned) Team LottoNl-Jumbo	73:50:37	 
+2	Esteban Chaves (Col) Orica-GreenEdge	0:03:00	 
+3	Alejandro Valverde (Spa) Movistar Team	0:03:23	 
+4	Vincenzo Nibali (Ita) Astana Pro Team	0:04:43	 
+5	Ilnur Zakarin (Rus) Team Katusha	0:04:50	 
+6	Rafal Majka (Pol) Tinkoff Team	0:05:34	 
+7	Bob Jungels (Lux) Etixx - Quick-Step	0:07:57	 
+8	Andrey Amador (CRc) Movistar Team	0:08:53	 
+9	Domenico Pozzovivo (Ita) AG2R La Mondiale	0:10:05	 
+10	Kanstantsin Siutsou (Blr) Dimension Data	0:11:16
