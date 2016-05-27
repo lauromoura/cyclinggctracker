@@ -44,7 +44,7 @@ function plotAccordingToChoices(dataset) {
         var key = $(this).attr('name');
         if (key && dataset[key]) {
             var currentData = jQuery.extend(true, {}, dataset[key]);
-            if (reference != 0)
+            if (reference >= 0) // -1 reserved for the leader after each stage.
                 adjust(currentData, referenceData)
             data.push(currentData);
         }
@@ -109,6 +109,7 @@ function selected_reference() {
 
 function fillReferenceCombo(dataset) {
     var combo = $("#reference");
+    combo.append(new Option("Leader after each stage", -1));
     $.each(dataset, function(idx) {
         var rider = dataset[idx];
         combo.append(new Option(rider.label, rider.gcplace));
