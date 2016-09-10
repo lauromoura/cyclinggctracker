@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tour de France 2016 General Classification Gaps</title>
+    <title>Vuelta a España 2016 General Classification Gaps</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.time.js"></script>
@@ -71,11 +71,15 @@
 
         $.getJSON('data/output.json', function(json, textStatus) {
             $.getJSON('data/teams.json', function(teams, textStatus2) {
-                dataset = filter_top_riders(10, json, teams);
+                dataset = filter_top_riders(15, json, teams);
                 fillReferenceCombo(dataset);
                 fillCheckboxes(dataset);
                 plotAccordingToChoices(dataset);
             });
+        }).fail(function(d, textStatus, error){
+            console.error("getJSON failed, status: " +
+                            textStatus + ",error: "+error);
+
         });
     });
     </script>
@@ -105,7 +109,7 @@
 
     <div class="container">
 		<div class="starter-template">
-            <h1>Tour de France 2016 General Classification gaps</h1>
+            <h1>Vuelta a España 2016 General Classification gaps</h1>
             <p>How the gap (in seconds) evolved over every stage.</p>
             <div class="data-container">
                 <div id="referenceContainer">Reference rider:<select
