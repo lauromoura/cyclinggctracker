@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Giro d'Italia 2018 General Classification Gaps</title>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <title>Cycling GC Tracker</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.time.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.symbol.min.js"></script>
     <script type="text/javascript" src="src/plot.js"></script>
     <!-- <script type="text/javascript" src="lib/jquery.flot.axislabels.min.js"></script>-->
 
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    <!-- <link rel="stylesheet" -->
+    <!-- href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" -->
+    <!-- crossorigin="anonymous"> -->
+
+    <!-- <script -->
+    <!-- src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" -->
+    <!-- integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" -->
+    <!-- crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
 
-    <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-    crossorigin="anonymous"></script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-78109527-2', 'auto');
-	  ga('send', 'pageview');
-	</script>
 
     <style type="text/css">
 
-    body {
-        padding-top: 50px;
-    }
-    .starter-template {
-        padding: 10px 15px;
-    }
     .data-container {
         width: 100%;
         overflow: hidden;
@@ -86,29 +79,22 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">GC tracker</a>
-        </div>
-        <div class="container">
-            <div id="navbar" class="collapse navbar-collapse">
-                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="active"><a href="#about">About</a></li>
-                    <li class="active"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-dark navbar-expand-sm">
+      <a class="navbar-brand" href="#">GC tracker</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" arial-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div id="navbar" class="collapse navbar-collapse">
+             <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
     <div class="container">
-		<div class="starter-template">
+        <div class="starter-template">
             <h1>Giro d'Italia 2018 General Classification gaps</h1>
             <p>How the gap (in seconds) evolved over every stage.</p>
             <div class="data-container">
@@ -117,10 +103,24 @@
                 <div id="checkboxes" class="right-box"></div>
                 <div id="flot-placeholder" class="placeholder"></div>
             </div>
-		</div>
-    </div>
-    <div id="tooltip">
+        </div>
+        <div id="tooltip">
+        </div>
+        <div id="about" class="starter-template">
+            <h3>About</h3>
+            <p>While most cycling sites provide great information about how the General Classification battle evolves, I couldn't find
+               a way to visualize the gap between the riders in the General Classification rankings. It is a good way to see how a given rider
+               soared or floundered in the last week.
+            </p>
+        </div>
+        <div id="contact" class="starter-template">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="https://github.com/lauromoura/cyclinggctracker">Github</a></li>
+                <li><a href="https://twitter.com/lauromoura">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/lauromoura/">LinkedIn</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
-
