@@ -6,6 +6,7 @@ import os
 import csv
 import json
 import argparse
+import pathlib
 
 from bs4 import BeautifulSoup
 from tidylib import tidy_document
@@ -116,6 +117,7 @@ def main():
                         action='store', default='.')
     args = parser.parse_args()
 
+    pathlib.Path(args.directory).mkdir(parents=True, exist_ok=True)
     print(args)
 
     riders_results = []
@@ -124,11 +126,11 @@ def main():
         filename = '{a.race}-{a.year}-stage-{stage:02d}.html'.format(a=args, stage=stage)
         path = os.path.join(args.directory, filename)
         url = BASE_URL.format(race=args.race, year=args.year, stage=stage)
-        print(url, filename, args.source)
+        print(url, path, args.source)
 
-        get(url, filename, args.source)
+        get(url, path, args.source)
 
-        riders_results += process(filename, stage)
+        riders_results += process(path, stage)
 
     print(riders_results)
 
