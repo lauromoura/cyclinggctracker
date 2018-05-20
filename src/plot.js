@@ -1,3 +1,7 @@
+function selectedReference() {
+    return $("select option:selected").val();
+}
+
 function bindHandlers() {
     $("#flot-placeholder").bind("plothover", function(event, pos, item) {
         if (!item) {
@@ -9,10 +13,11 @@ function bindHandlers() {
         var y = item.datapoint[1].toFixed(2);
 
         var string = item.series.label;
-        if (y === 0)
+        if (y === 0) {
             string += ": leader";
-        else
+        } else {
             string += ": " + y + "";
+        }
         string += " at stage " + x;
 
         $("#tooltip").html(string)
@@ -31,7 +36,7 @@ function adjust(obj, reference) {
         var gap = datapoint[1];
         var refGap = reference.data[index][1];
         newdata.push([stage, gap - refGap]);
-    })
+    });
     obj.data = newdata;
 }
 
@@ -68,6 +73,22 @@ function plotAccordingToChoices(dataset) {
     }
 }
 
+function getColor(team, teams)
+{
+    if (team in teams) {
+        return teams[team]["color"];
+    } else {
+        return "#222222";
+    }
+}
+
+function appendRiderTime(riderData)
+{
+    return function(timeBehindLeader, stage) {
+        riderData.data.push([stage+1, timeBehindLeader]);
+    };
+}
+
 function filterTopRiders(n, json, teams)
 {
     var dataset = [];
@@ -82,15 +103,8 @@ function filterTopRiders(n, json, teams)
 
         var rider = json[key];
         var riderData = { data: [], label: rider.name };
-        rider.time.forEach(function(timeBehindLeader, stage){
-            riderData.data.push([stage+1, timeBehindLeader]);
-        });
-        if (rider.team in teams) {
-            riderData["color"] = teams[rider.team]["color"];
-        } else {
-            console.log(`Team "${rider.team}" not found in color index. Using default.`);
-            riderData["color"] = "#222222";
-        }
+        rider.time.forEach(appendRiderTime(riderData));
+        riderData["color"] = getColor(rider.team, teams);
         riderData["gcplace"] = rider.pos - 1;
         dataset[rider.pos-1] = riderData;
     }
@@ -109,10 +123,6 @@ function fillCheckboxes(dataset) {
         plotAccordingToChoices(dataset);
     });
 
-}
-
-function selectedReference() {
-    return $("select option:selected").val();
 }
 
 function fillReferenceCombo(dataset) {
