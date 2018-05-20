@@ -98,8 +98,11 @@ def jsonify(filename, riders_results):
             riders[name]['time'].append(result['GC-Time'])
             riders[name]['pos'] = result['GC']
 
+    # In order to use Map in JS, we change to a list.
+    riders_list = list(riders.items())
+
     with open(filename, 'w') as handle:
-        json.dump(riders, handle)
+        json.dump(riders_list, handle)
 
 
 def main():

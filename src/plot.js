@@ -1,7 +1,7 @@
 /* eslint-env es6 */
 
 function selectedReference() {
-    return $("select option:selected").val();
+    return Number($("select option:selected").val());
 }
 
 function bindHandlers() {
@@ -45,11 +45,12 @@ function adjust(obj, reference) {
 function plotAccordingToChoices(dataset) {
     var data = [];
     var reference = selectedReference();
-    var referenceData = dataset[reference];
+    var referenceData = dataset.get(reference);
     $("#checkboxes").find("input:checked").each(function(){
-        var key = $(this).attr("name");
-        if (key && dataset[key]) {
-            var currentData = jQuery.extend(true, {}, dataset[key]);
+        var key = Number($(this).attr("name"));
+        console.log(key);
+        if (dataset.has(key)) {
+            var currentData = jQuery.extend(true, {}, dataset.get(key));
             if (reference >= 0) { // -1 reserved for the leader after each stage.
                 adjust(currentData, referenceData);
             }
@@ -76,8 +77,8 @@ function plotAccordingToChoices(dataset) {
 
 function getColor(team, teams)
 {
-    if (team in teams) {
-        return teams[team]["color"];
+    if (teams.has(team)) {
+        return teams.get(team)["color"];
     } else {
         return "#222222";
     }
@@ -92,30 +93,26 @@ function appendRiderTime(riderData)
 
 function filterTopRiders(n, json, teams)
 {
-    var dataset = [];
-    for (var key in json) {
-        if (!json.hasOwnProperty(key)) {
-            continue;
+    var dataset = new Array(n);
+    var map = new Map(json);
+    map.forEach(function(rider, key) {
+
+        if (rider.pos > n) {
+            return;
         }
 
-        if (json[key].pos > n) {
-            continue;
-        }
-
-        var rider = json[key];
         var riderData = { data: [], label: rider.name };
         rider.time.forEach(appendRiderTime(riderData));
         riderData["color"] = getColor(rider.team, teams);
         riderData["gcplace"] = rider.pos - 1;
-        dataset[rider.pos-1] = riderData;
-    }
-    return dataset;
+        dataset[rider.pos-1] = [rider.pos - 1, riderData];
+    });
+    return new Map(dataset);
 }
 
 function fillCheckboxes(dataset) {
     var choicesContainer = $("#checkboxes");
-    $.each(dataset, function(idx){
-        var rider = dataset[idx];
+    dataset.forEach(function(rider){
         choicesContainer.append("<br/><input type='checkbox' name='" + rider.gcplace + "' checked='checked' id='id" + rider.label + "'></input>" +
             "<label for='id" + rider.label + "'>" +  (rider.gcplace + 1) + ": "+ rider.label + "</label>");
     });
@@ -129,8 +126,7 @@ function fillCheckboxes(dataset) {
 function fillReferenceCombo(dataset) {
     var combo = $("#reference");
     combo.append(new Option("Leader after each stage", -1));
-    $.each(dataset, function(idx) {
-        var rider = dataset[idx];
+    dataset.forEach(function(rider, pos) {
         combo.append(new Option(rider.label, rider.gcplace));
     });
 

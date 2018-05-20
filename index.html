@@ -64,10 +64,12 @@
 
         $.getJSON('data/output.json', function(json, textStatus) {
             $.getJSON('data/teams.json', function(teams, textStatus2) {
-                dataset = filterTopRiders(15, json, teams);
+                dataset = filterTopRiders(15, json, new Map(teams));
                 fillReferenceCombo(dataset);
                 fillCheckboxes(dataset);
                 plotAccordingToChoices(dataset);
+            }).fail(function(d, textStatus2, error){
+                console.error("getJSON failed, status: " + textStatus2 + ", error: " + error);
             });
         }).fail(function(d, textStatus, error){
             console.error("getJSON failed, status: " +
