@@ -1,3 +1,5 @@
+/* eslint-env es6 */
+
 function selectedReference() {
     return $("select option:selected").val();
 }
@@ -44,7 +46,6 @@ function plotAccordingToChoices(dataset) {
     var data = [];
     var reference = selectedReference();
     var referenceData = dataset[reference];
-    console.log(referenceData);
     $("#checkboxes").find("input:checked").each(function(){
         var key = $(this).attr("name");
         if (key && dataset[key]) {
@@ -63,8 +64,8 @@ function plotAccordingToChoices(dataset) {
             },
             yaxis: {
                 tickSize:60,
-                transform: function(v) { return -v; },
-                inverseTransform: function(v) { return -v; }
+                transform: (v) => -v,
+                inverseTransform: (v) => -v,
             },
             grid: {
                 hoverable: true
