@@ -59,12 +59,12 @@
     <script type="text/javascript">
     $(document).ready(function(){
         var data = [];
-        bind_handlers();
+        bindHandlers();
         $.plot("#flot-placeholder", [data]);
 
         $.getJSON('data/output.json', function(json, textStatus) {
             $.getJSON('data/teams.json', function(teams, textStatus2) {
-                dataset = filter_top_riders(15, json, teams);
+                dataset = filterTopRiders(15, json, teams);
                 fillReferenceCombo(dataset);
                 fillCheckboxes(dataset);
                 plotAccordingToChoices(dataset);

@@ -1,4 +1,4 @@
-function bind_handlers() {
+function bindHandlers() {
     $("#flot-placeholder").bind("plothover", function(event, pos, item) {
         if (!item) {
             $("#tooltip").hide();
@@ -9,7 +9,7 @@ function bind_handlers() {
         var y = item.datapoint[1].toFixed(2);
 
         var string = item.series.label;
-        if (y == 0)
+        if (y === 0)
             string += ": leader";
         else
             string += ": " + y + "";
@@ -29,23 +29,24 @@ function adjust(obj, reference) {
     obj.data.map(function(datapoint, index) {
         var stage = datapoint[0];
         var gap = datapoint[1];
-        var ref_gap = reference.data[index][1];
-        newdata.push([stage, gap - ref_gap]);
+        var refGap = reference.data[index][1];
+        newdata.push([stage, gap - refGap]);
     })
-    obj.data = newdata
+    obj.data = newdata;
 }
 
 function plotAccordingToChoices(dataset) {
     var data = [];
-    var reference = selected_reference();
+    var reference = selectedReference();
     var referenceData = dataset[reference];
     console.log(referenceData);
     $("#checkboxes").find("input:checked").each(function(){
-        var key = $(this).attr('name');
+        var key = $(this).attr("name");
         if (key && dataset[key]) {
             var currentData = jQuery.extend(true, {}, dataset[key]);
-            if (reference >= 0) // -1 reserved for the leader after each stage.
-                adjust(currentData, referenceData)
+            if (reference >= 0) { // -1 reserved for the leader after each stage.
+                adjust(currentData, referenceData);
+            }
             data.push(currentData);
         }
     });
@@ -67,28 +68,30 @@ function plotAccordingToChoices(dataset) {
     }
 }
 
-function filter_top_riders(n, json, teams)
+function filterTopRiders(n, json, teams)
 {
     var dataset = [];
     for (var key in json) {
-        if (!json.hasOwnProperty(key))
+        if (!json.hasOwnProperty(key)) {
             continue;
+        }
 
-        if (json[key].pos > n)
+        if (json[key].pos > n) {
             continue;
+        }
 
         var rider = json[key];
-        var riderData = { data: [], label: rider.name }
+        var riderData = { data: [], label: rider.name };
         rider.time.forEach(function(timeBehindLeader, stage){
             riderData.data.push([stage+1, timeBehindLeader]);
         });
         if (rider.team in teams) {
-            riderData['color'] = teams[rider.team]['color'];
+            riderData["color"] = teams[rider.team]["color"];
         } else {
             console.log(`Team "${rider.team}" not found in color index. Using default.`);
-            riderData['color'] = "#222222";
+            riderData["color"] = "#222222";
         }
-        riderData['gcplace'] = rider.pos - 1;
+        riderData["gcplace"] = rider.pos - 1;
         dataset[rider.pos-1] = riderData;
     }
     return dataset;
@@ -108,7 +111,7 @@ function fillCheckboxes(dataset) {
 
 }
 
-function selected_reference() {
+function selectedReference() {
     return $("select option:selected").val();
 }
 
