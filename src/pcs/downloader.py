@@ -12,12 +12,11 @@ from tidylib import tidy_document
 import requests
 
 
-BASE_URL = 'https://www.procyclingstats.com/race/{race}/{year}/stage-{stage}-gc'
+BASE_URL = 'https://www.procyclingstats.com/race/{race}/{year}/stage-{stage}'
 
 def get_soup_for(filename):
     with open(filename) as handle:
-        html_raw_data = handle.read()
-        html_data, errors = tidy_document(html_raw_data)
+        html_data = handle.read()
     return BeautifulSoup(html_data, 'html.parser')
 
 def save_records_to_csv(records, filename):
@@ -31,8 +30,9 @@ def download(url, filename):
     '''Downloads url to filename'''
     r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'})
     r.raise_for_status()
-    with open(filename, 'w', encoding=r.encoding) as output:
-        output.write(r.text)
+    data, _errors = tidy_document(r.text)
+    with open(filename, 'w', encoding='utf-8') as output:
+        output.write(data)
 
 def get(url, filename, source):
     if source == 'download' or not os.path.isfile(filename):
@@ -40,6 +40,8 @@ def get(url, filename, source):
 
 def cleanup(key, value):
     if key in ('BIB', 'Age', 'UCI', 'Pnt', 'GC'):
+        if value.endswith('*'):
+            value = value[:-1]
         return int(value) if value else 0
     if key in ('Avg',):
         return float(value) if value else 0.0
@@ -78,7 +80,7 @@ def process(filename, stage):
     return riders
 
 
-def jsonify(riders_results):
+def jsonify(filename, riders_results):
     riders = {}
     for result in sorted(riders_results, key=lambda res: res['Stage']):
         print(result)
@@ -95,9 +97,7 @@ def jsonify(riders_results):
             riders[name]['time'].append(result['GC-Time'])
             riders[name]['pos'] = result['GC']
 
-    print(riders)
-
-    with open('out.json', 'w') as handle:
+    with open(filename, 'w') as handle:
         json.dump(riders, handle)
 
 
@@ -132,7 +132,7 @@ def main():
 
     print(riders_results)
 
-    jsonify(riders_results)
+    jsonify('{a.race}-{a.year}.json'.format(a=args), riders_results)
 
     for team in set(x['Team'] for x in riders_results):
         print(team)
