@@ -82,7 +82,12 @@ function filter_top_riders(n, json, teams)
         rider.time.forEach(function(timeBehindLeader, stage){
             riderData.data.push([stage+1, timeBehindLeader]);
         });
-        riderData['color'] = teams[rider.team]['color'];
+        if (rider.team in teams) {
+            riderData['color'] = teams[rider.team]['color'];
+        } else {
+            console.log(`Team "${rider.team}" not found in color index. Using default.`);
+            riderData['color'] = "#222222";
+        }
         riderData['gcplace'] = rider.pos - 1;
         dataset[rider.pos-1] = riderData;
     }
