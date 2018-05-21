@@ -126,6 +126,12 @@
                 <li><a href="https://www.linkedin.com/in/lauromoura/">LinkedIn</a></li>
             </ul>
         </div>
+        <!-- <div id="plot"></div> -->
+        <!-- <script src="plotter.js"></script> -->
+        <!-- <script> -->
+        <!--     var app = Elm.Plot.fullscreen(); -->
+        <!--     app.ports..subscribe( -->
+        <!-- </script> -->
     </div>
 
     <script src="elm.js">
@@ -134,6 +140,9 @@
         const elmDiv = document.querySelector("#elm-app");
         if (elmDiv) {
             var myApp = Elm.Main.embed(elmDiv);
+            myApp.ports.plotData.subscribe(function(data) {
+                plotFromElm(data);
+            });
         }
     </script>
 </body>

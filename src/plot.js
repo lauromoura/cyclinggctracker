@@ -74,6 +74,31 @@ function plotAccordingToChoices(dataset) {
     }
 }
 
+function plotFromElm(data)
+{
+    console.log("Called from elm!");
+    return;
+    if (data.length === 0)
+    {
+        return;
+    }
+
+    $.plot("#flot.placeholder", data, {
+        legend: {
+            position: "sw"
+        },
+        yaxis: {
+            tickSize: 60,
+            transform: (v) => -v,
+            inverseTransform: (v) => -v,
+        },
+        grid: {
+            hoverable: true
+        }
+    });
+}
+
+
 function getColor(team, teams)
 {
     if (teams.has(team)) {
