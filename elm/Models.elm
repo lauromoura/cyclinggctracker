@@ -1,14 +1,22 @@
 module Models exposing (..)
 
+import RemoteData exposing (WebData)
+
 
 type alias Model =
-    { riders : List Rider
+    { riders : WebData (List Rider)
+    , count : Int
     }
 
 
 type alias Rider =
     { name : String
-    , position : Position
+    , info : RiderInfo
+    }
+
+
+type alias RiderInfo =
+    { position : Position
     , times : List Int
     , team : String
     }
@@ -16,11 +24,17 @@ type alias Rider =
 
 initialModel : Model
 initialModel =
-    { riders =
-        [ Rider "Tom Dumoulin" 2 [ 1, 2, 3 ] "Team SunWeb"
-        , Rider "Lance Armstrong" 1 [ 2, 3, 4 ] "US Postal Service"
-        ]
+    { riders = RemoteData.Loading
+    , count = 15
     }
+
+
+
+-- { riders =
+--     [ Rider "Tom Dumoulin" (RiderInfo 2 [ 1, 2, 3 ] "Team SunWeb")
+--     , Rider "Lance Armstrong" (RiderInfo 1 [ 2, 3, 4 ] "US Postal Service")
+--     ]
+-- }
 
 
 type alias RiderName =

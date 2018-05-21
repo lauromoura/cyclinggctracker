@@ -4,14 +4,31 @@ import Html exposing (..)
 import Html.Attributes exposing (class, type_)
 import Models exposing (..)
 import Msgs exposing (Msg)
+import RemoteData exposing (WebData)
 
 
 view : Model -> Html Msg
-view model =
-    div []
+view response =
+    div [ class "right-box" ]
         [ nav
-        , list model.riders
+        , maybeList response.riders response.count
         ]
+
+
+maybeList : WebData (List Rider) -> Int -> Html Msg
+maybeList response count =
+    case response of
+        RemoteData.NotAsked ->
+            text ""
+
+        RemoteData.Loading ->
+            text "loading"
+
+        RemoteData.Success riders ->
+            list riders count
+
+        RemoteData.Failure error ->
+            text (toString error)
 
 
 nav : Html Msg
@@ -22,10 +39,10 @@ nav =
         ]
 
 
-list : List Rider -> Html Msg
-list riders =
+list : List Rider -> Int -> Html Msg
+list riders count =
     div [ class "p1" ]
-        (List.map riderCheck riders)
+        (List.take count riders |> List.map riderCheck)
 
 
 riderCheck : Rider -> Html Msg

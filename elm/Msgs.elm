@@ -1,5 +1,8 @@
 module Msgs exposing (..)
 
+import Models exposing (Rider)
+import RemoteData exposing (WebData)
+
 
 type Msg
-    = NoOp
+    = OnFetchRiders (WebData (List Rider))
