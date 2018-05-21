@@ -1,6 +1,7 @@
 module Models exposing (..)
 
 import RemoteData exposing (WebData)
+import List.Extra exposing (zip)
 
 
 type alias Model =
@@ -29,12 +30,11 @@ initialModel =
     }
 
 
-
--- { riders =
---     [ Rider "Tom Dumoulin" (RiderInfo 2 [ 1, 2, 3 ] "Team SunWeb")
---     , Rider "Lance Armstrong" (RiderInfo 1 [ 2, 3, 4 ] "US Postal Service")
---     ]
--- }
+gapToRider : Rider -> Rider -> List Int
+gapToRider reference rider =
+    rider.info.times
+        |> zip reference.info.times
+        |> List.map (\( ref, rid ) -> rid - ref)
 
 
 type alias RiderName =

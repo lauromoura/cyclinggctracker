@@ -51,6 +51,6 @@ riderCheck rider =
         [ br [] []
         , label []
             [ input [ type_ "checkbox" ] []
-            , text rider.name
+            , text ("#" ++ (toString rider.info.position) ++ " " ++ rider.name)
             ]
         ]
