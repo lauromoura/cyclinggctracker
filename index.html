@@ -96,18 +96,20 @@
     </nav>
 
     <div class="container">
-        <div class="starter-template">
-            <h1>Giro d'Italia 2018 General Classification gaps</h1>
-            <p>How the gap (in seconds) evolved over every stage.</p>
-            <div class="data-container">
-                <div id="referenceContainer">Reference rider:<select
-                        id="reference"></select></div>
-                <div id="checkboxes" class="right-box"></div>
-                <div id="flot-placeholder" class="placeholder"></div>
-            </div>
+        <div id="elm-app">
         </div>
-        <div id="tooltip">
-        </div>
+        <!-- <div class="starter-template"> -->
+        <!--     <h1>Giro d'Italia 2018 General Classification gaps</h1> -->
+        <!--     <p>How the gap (in seconds) evolved over every stage.</p> -->
+        <!--     <div class="data-container"> -->
+        <!--         <div id="referenceContainer">Reference rider:<select -->
+        <!--                 id="reference"></select></div> -->
+        <!--         <div id="checkboxes" class="right-box"></div> -->
+        <!--         <div id="flot-placeholder" class="placeholder"></div> -->
+        <!--     </div> -->
+        <!-- </div> -->
+        <!-- <div id="tooltip"> -->
+        <!-- </div> -->
         <div id="about" class="starter-template">
             <h3>About</h3>
             <p>While most cycling sites provide great information about how the General Classification battle evolves, I couldn't find
@@ -124,5 +126,14 @@
             </ul>
         </div>
     </div>
+
+    <script src="elm.js">
+    </script>
+    <script>
+        const elmDiv = document.querySelector("#elm-app");
+        if (elmDiv) {
+            var myApp = Elm.Main.embed(elmDiv);
+        }
+    </script>
 </body>
 </html>
