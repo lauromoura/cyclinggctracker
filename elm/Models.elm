@@ -41,6 +41,12 @@ type alias RiderName =
     String
 
 
+type alias StageTime =
+    { stage : Float
+    , time : Float
+    }
+
+
 type alias Position =
     Int
 
