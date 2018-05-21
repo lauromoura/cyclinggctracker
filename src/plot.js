@@ -48,7 +48,6 @@ function plotAccordingToChoices(dataset) {
     var referenceData = dataset.get(reference);
     $("#checkboxes").find("input:checked").each(function(){
         var key = Number($(this).attr("name"));
-        console.log(key);
         if (dataset.has(key)) {
             var currentData = jQuery.extend(true, {}, dataset.get(key));
             if (reference >= 0) { // -1 reserved for the leader after each stage.
