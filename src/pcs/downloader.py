@@ -90,19 +90,26 @@ def jsonify(filename, riders_results):
         if name not in riders:
             riders[name] = {
                     'name': name,
-                    'pos': result['GC'],
-                    'time': [result['GC-Time']],
+                    'position': result['GC'],
+                    'times': [result['GC-Time']],
                     'team': result['Team']
                     }
         else:
-            riders[name]['time'].append(result['GC-Time'])
-            riders[name]['pos'] = result['GC']
+            riders[name]['times'].append(result['GC-Time'])
+            riders[name]['position'] = result['GC']
 
     # In order to use Map in JS, we change to a list.
-    riders_list = list(riders.items())
+    riders_list = [{"name": k, "info": v} for k, v in riders.items()]
+
+    def sort_func(rider):
+        stages = len(rider['info']['times'])
+        last_pos = rider['info']['position']
+        if last_pos == 0:
+            last_pos = 10000
+        return (-stages, last_pos)
 
     with open(filename, 'w') as handle:
-        json.dump(riders_list, handle)
+        json.dump(sorted(riders_list, key=sort_func), handle)
 
 
 def main():
